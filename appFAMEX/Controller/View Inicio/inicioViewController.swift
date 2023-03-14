@@ -52,7 +52,7 @@ class inicioViewController: UIViewController, protocoloMenu {
     
     // Carrusel Inicio
     let myCarouselInicio: iCarousel = {                    // Nombre del carrusel
-        let carousel = iCarousel()                   // Se crea la instancia de tipo Icarousel (Se crea el objeto carrusel)
+        let carousel = iCarousel()                  // Se crea la instancia de tipo Icarousel (Se crea el objeto carrusel)
         carousel.type = iCarouselType.rotary         // Tipo de carrusel
         return carousel
     }()
