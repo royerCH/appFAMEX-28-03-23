@@ -43,7 +43,11 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var textFieldPass: UITextField!
     @IBOutlet weak var textFieldPassConfirm: UITextField!
     
+    //--------------Instancia de objetos
     
+
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,6 +58,9 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         self.textFieldUsr.delegate = self
         self.textFieldPass.delegate = self
         self.textFieldPassConfirm.delegate = self
+        
+      
+        
     }
 
     // Metodos
@@ -76,5 +83,20 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         
         return true
     }
-
+    
+    
+    @IBAction func btnCreateUSer(_ sender: Any) {
+//        newUser = NewUser()
+//        print("\(newUser!.obtenerNombre())")
+    }
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//
+//        if let destinoMenu = segue.destination as?
+//            MenuViewController{
+//            destinoMenu.newUser = self.newUser
+//
+//        }
+//    }
+    
 }

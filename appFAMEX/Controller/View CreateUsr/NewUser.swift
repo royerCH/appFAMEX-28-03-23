@@ -7,32 +7,38 @@
 
 import Foundation
 
-class UserNew{
+class NewUser{
     
-    var user = " "
-    var password = " "
-    var confirmPassword = " "
+    var user = "rogelio@famex.com.mx"
+    var password = "cerezo1987"
+    var confirmPassword = "cerezo1897"
     
     
-    init(user: String, password: String, confirmPassword: String) {
-        self.user = user
-        self.password = password
-        self.confirmPassword = confirmPassword
+//    init(user: String, password: String, confirmPassword: String) {
+//        self.user = user
+//        self.password = password
+//        self.confirmPassword = confirmPassword
+//    }
+    
+    func getName() -> String {
+        let users = "\(user)"
+            return users
     }
+
     
-    
-    func crearUsuario() {
-        print("Ususario creado")
-    }
-    
-    func mostrarInfo(){
+     func mostrarInfo() -> String{
         
-        print ("\(user), \(password), \(confirmPassword)")
+        let  datos = ("Usuario: \(user)\nContraseña: \(password)\nContraseña confirmada: \(confirmPassword)")
+        return datos
     }
     
-    func obtenerNombre(){
+
+    
+    func getPassword() -> String{
         
-        print("\(user)")
+        _ = "\(password)"
+        return password
+    
     }
         
 }

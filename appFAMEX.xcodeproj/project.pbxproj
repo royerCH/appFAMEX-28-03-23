@@ -57,6 +57,7 @@
 		BE71F949290055F3005B328A /* videoEspectaculo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BE71F948290055F3005B328A /* videoEspectaculo.mp4 */; };
 		BE782E712915848800B7FD70 /* accesosprioritarios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE782E702915848800B7FD70 /* accesosprioritarios.pdf */; };
 		BE782E76291588FE00B7FD70 /* puntodesanitizacion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE782E75291588FE00B7FD70 /* puntodesanitizacion.pdf */; };
+		BE7BB61129BA37E200175CAF /* NewUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7BB61029BA37E200175CAF /* NewUser.swift */; };
 		BE7FFF9E299BEFE1007EB39E /* Pods_appFAMEX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042E86597E080A9297137507 /* Pods_appFAMEX.framework */; };
 		BE870F972989C174007F0E99 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B01362940FDCD0004A1F6 /* profileViewController.swift */; };
 		BE870FB32989CAB0007F0E99 /* franciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AA128CA28660000B418 /* franciaViewController.swift */; };
@@ -167,6 +168,7 @@
 		BE71F948290055F3005B328A /* videoEspectaculo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoEspectaculo.mp4; sourceTree = "<group>"; };
 		BE782E702915848800B7FD70 /* accesosprioritarios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = accesosprioritarios.pdf; sourceTree = "<group>"; };
 		BE782E75291588FE00B7FD70 /* puntodesanitizacion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = puntodesanitizacion.pdf; sourceTree = "<group>"; };
+		BE7BB61029BA37E200175CAF /* NewUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser.swift; sourceTree = "<group>"; };
 		BE95F5D928CB7E210093D0A7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BE95F5E228CB7EA20093D0A7 /* appFAMEX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = appFAMEX.xcdatamodel; sourceTree = "<group>"; };
 		BEAD8CD529B290330039C740 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -346,6 +348,7 @@
 			isa = PBXGroup;
 			children = (
 				7037A25A28BD9D5200DCB43C /* SignUpViewController.swift */,
+				BE7BB61029BA37E200175CAF /* NewUser.swift */,
 			);
 			path = "View CreateUsr";
 			sourceTree = "<group>";
@@ -685,7 +688,7 @@
 				BE4F828228B7C7F2004F4DD4 /* Sources */,
 				BE4F828328B7C7F2004F4DD4 /* Frameworks */,
 				BE4F828428B7C7F2004F4DD4 /* Resources */,
-				4DBFC5209E75CCF0885CC2F6 /* [CP] Embed Pods Frameworks */,
+				4BF91099BE6FE7DEDFFE3D38 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -726,7 +729,7 @@
 				BE4F82A628B7C7F3004F4DD4 /* Sources */,
 				BE4F82A728B7C7F3004F4DD4 /* Frameworks */,
 				BE4F82A828B7C7F3004F4DD4 /* Resources */,
-				1CB9BC4E4355C5E1ED9E8AFB /* [CP] Embed Pods Frameworks */,
+				9C1B976909FFF4DA1984B08E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -772,7 +775,7 @@
 			);
 			mainGroup = BE4F827D28B7C7F2004F4DD4;
 			packageReferences = (
-				BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
 			);
 			productRefGroup = BE4F828728B7C7F2004F4DD4 /* Products */;
 			projectDirPath = "";
@@ -849,23 +852,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1CB9BC4E4355C5E1ED9E8AFB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3A00E8AAD90ED6801E24396B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -888,7 +874,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4DBFC5209E75CCF0885CC2F6 /* [CP] Embed Pods Frameworks */ = {
+		4BF91099BE6FE7DEDFFE3D38 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -925,6 +911,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C1B976909FFF4DA1984B08E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -965,6 +968,7 @@
 				BEB0D38B2926D264003CAED9 /* PopUpContactoViewController.swift in Sources */,
 				BE31968728EC836600C8A8B8 /* PopUpIDViewController.swift in Sources */,
 				BE2D6C35292E937B00F215FC /* expoEstaticaMexicoViewController.swift in Sources */,
+				BE7BB61129BA37E200175CAF /* NewUser.swift in Sources */,
 				BE4F828C28B7C7F2004F4DD4 /* SceneDelegate.swift in Sources */,
 				BEB0D3732926BC6C003CAED9 /* TableViewCellChalet.swift in Sources */,
 				7095C6EF28C86282008088C2 /* famexViewController.swift in Sources */,
@@ -1322,7 +1326,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -1335,7 +1339,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		BEF1FE7C2937C720000FF155 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */

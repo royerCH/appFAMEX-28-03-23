@@ -21,16 +21,15 @@ class MenuViewController: UIViewController {
     
     
     @IBOutlet weak var tableViewMenu: UITableView!
-    
     @IBOutlet weak var lblPilot: UILabel!
     @IBOutlet weak var lblNamePilot: UILabel!
     
-    
-    
-
     //MARK: - Properties
     //static let userName = MenuViewController ()
-    var userNameMenu: String?
+    //var newUser1: String?
+    var newUser1: NewUser?
+   
+   
     
     struct structMenu {             // Campos de la opcion del menu
         var camptitle = String()    // titulo de cada pantalla
@@ -93,8 +92,7 @@ class MenuViewController: UIViewController {
         
         // methods calling
         customView()
-    
-
+ 
     }
     
     func customView() {
@@ -108,9 +106,9 @@ class MenuViewController: UIViewController {
         lblPilot.text = "Piloto:"
         lblPilot.font = UIFont(name: "Arial", size: 15)
         lblPilot.textColor = .white
+        newUser1 = NewUser()
+        lblNamePilot.text = "\(String(describing: newUser1!.getName()))"
         
-        lblNamePilot.text = "Usuario"
-
         lblNamePilot.font = UIFont(name: "Arial", size: 20)
         lblNamePilot.textColor = .white
         lblNamePilot.numberOfLines = 0

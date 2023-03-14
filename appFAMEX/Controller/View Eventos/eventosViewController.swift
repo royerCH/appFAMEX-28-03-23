@@ -115,7 +115,7 @@ class eventosViewController: UIViewController, protocoloMenu {
     
     @IBAction func btnConferencias(_ sender: Any) {
         
-        print("Conferencias")
+        performSegue(withIdentifier: "eventoConferenciasSegue", sender: self)
     }
     
     @IBAction func btnPabellones(_ sender: Any) {

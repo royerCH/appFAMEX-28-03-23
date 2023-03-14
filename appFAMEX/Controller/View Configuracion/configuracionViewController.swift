@@ -166,7 +166,6 @@ class configuracionViewController: UIViewController, protocoloMenu {
     {
     print("botón reportar problemas")
     
-    performSegue(withIdentifier: "problemaSegue", sender: self)
     
     
     
