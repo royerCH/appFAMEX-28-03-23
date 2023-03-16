@@ -9,7 +9,7 @@ import Foundation
 
 class NewUser{
     
-    var user = "rogelio@famex.com.mx"
+    var user = "valerio@f-amex.com.mx"
     var password = "cerezo1987"
     var confirmPassword = "cerezo1897"
     

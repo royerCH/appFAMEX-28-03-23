@@ -73,16 +73,16 @@ class expoEstaticaMexicoViewController: UIViewController {
         collectionViewExpoEstaticaMexBlock3.backgroundColor = #colorLiteral(red: 0.7615993023, green: 0.0621605888, blue: 0.1412988901, alpha: 1).withAlphaComponent(0.5)
         
             // Labels
-        lblVisitarAeronavesMex.text = "PARA VISITAR LAS AERONAVES EN LA FERIA CONSULTE SU UBICACION EN EL MAPA GENERAL"
+        lblVisitarAeronavesMex.text = "PARA VISITAR LAS AERONAVES EN LA FERIA CONSULTE SU UBICACIÓN EN EL MAPA GENERAL"
         lblVisitarAeronavesMex.numberOfLines = 0
         lblVisitarAeronavesMex.adjustsFontSizeToFitWidth = true
         lblVisitarAeronavesMex.minimumScaleFactor = 0.5
         lblVisitarAeronavesMex.textAlignment = .center
         lblVisitarAeronavesMex.textColor = .white
         
-        lblExpoEstaticaMex.text = "E\nX\nP\nO\nS\nI\nO\nN\n \nE\nS\nT\nA\nT\nI\nC\nA"
+        lblExpoEstaticaMex.text = "E\nX\nP\nO\nS\nI\nC\nI\nÓ\nN\n  \nE\nS\nT\nÁ\nT\nI\nC\nA"
         lblExpoEstaticaMex.numberOfLines = 0
-        lblExpoEstaticaMex.font = UIFont(name: "Arial", size: 40)
+        lblExpoEstaticaMex.font = UIFont(name: "Arial", size: 35)
         lblExpoEstaticaMex.adjustsFontSizeToFitWidth = true
         lblExpoEstaticaMex.minimumScaleFactor = 0.5
         lblExpoEstaticaMex.textAlignment = .center

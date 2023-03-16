@@ -39,7 +39,7 @@ class configuracionViewController: UIViewController, protocoloMenu {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = #colorLiteral(red: 0.0307629546, green: 0.1608202691, blue: 0.325432595, alpha: 1)
+        //view.backgroundColor = #colorLiteral(red: 0.0307629546, green: 0.1608202691, blue: 0.325432595, alpha: 1)
         
     
         viewOptionSelect = viewConfiguracion.transform  // Animacion del menu
@@ -159,7 +159,9 @@ class configuracionViewController: UIViewController, protocoloMenu {
     // Accion para el boton Preguntas Frecuentes *s/f
    @IBAction func btnActionPreguntasFrecuentes(_ sender: Any)
     {
-    print("botón preguntas")
+    
+        performSegue(withIdentifier: "preguntasSegue", sender: self)
+    print("preguntame ")
    }
     // Accion para el boton Reportar n Problema *s/f
    @IBAction func btnActionReportarUnProblema(_ sender: Any)

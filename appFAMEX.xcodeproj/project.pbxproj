@@ -67,13 +67,10 @@
 		BEB0D36A2926A978003CAED9 /* chaletsFranciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D3692926A978003CAED9 /* chaletsFranciaViewController.swift */; };
 		BEB0D3732926BC6C003CAED9 /* TableViewCellChalet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D3712926BC6C003CAED9 /* TableViewCellChalet.swift */; };
 		BEB0D3742926BC6C003CAED9 /* TableViewCellChalet.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB0D3722926BC6C003CAED9 /* TableViewCellChalet.xib */; };
-		BEB0D37A2926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D3792926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift */; };
-		BEB0D38B2926D264003CAED9 /* PopUpContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D38A2926D264003CAED9 /* PopUpContactoViewController.swift */; };
-		BEB0D3902926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D38F2926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift */; };
-		BEB0D3952926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D3942926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift */; };
 		BEB6FF0428E7552600C047D3 /* PopUpPuestosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6FF0328E7552600C047D3 /* PopUpPuestosViewController.swift */; };
 		BEB9882629A022A500BDCF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB9882829A022A500BDCF24 /* Main.storyboard */; };
 		BEC0F802299AD484002582D4 /* BienvenidaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0F801299AD484002582D4 /* BienvenidaViewController.swift */; };
+		BEC1B3E029C10F1C00AE86B0 /* PreguntasFrecuentesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B3DF29C10F1C00AE86B0 /* PreguntasFrecuentesViewController.swift */; };
 		BED5325A28F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5325828F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.swift */; };
 		BED5325B28F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.xib in Resources */ = {isa = PBXBuildFile; fileRef = BED5325928F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.xib */; };
 		BED5326428F47AA10061EE58 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5326328F47AA10061EE58 /* MenuViewController.swift */; };
@@ -175,13 +172,10 @@
 		BEB0D3692926A978003CAED9 /* chaletsFranciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chaletsFranciaViewController.swift; sourceTree = "<group>"; };
 		BEB0D3712926BC6C003CAED9 /* TableViewCellChalet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellChalet.swift; sourceTree = "<group>"; };
 		BEB0D3722926BC6C003CAED9 /* TableViewCellChalet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellChalet.xib; sourceTree = "<group>"; };
-		BEB0D3792926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpPreguntasFrecuentesViewController.swift; sourceTree = "<group>"; };
-		BEB0D38A2926D264003CAED9 /* PopUpContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpContactoViewController.swift; sourceTree = "<group>"; };
-		BEB0D38F2926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpSobreLaAplicacionViewController.swift; sourceTree = "<group>"; };
-		BEB0D3942926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppTerminosYCondicionesViewController.swift; sourceTree = "<group>"; };
 		BEB6FF0328E7552600C047D3 /* PopUpPuestosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpPuestosViewController.swift; sourceTree = "<group>"; };
 		BEB9882729A022A500BDCF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEC0F801299AD484002582D4 /* BienvenidaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BienvenidaViewController.swift; sourceTree = "<group>"; };
+		BEC1B3DF29C10F1C00AE86B0 /* PreguntasFrecuentesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreguntasFrecuentesViewController.swift; sourceTree = "<group>"; };
 		BED5325828F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCellRestaurantes.swift; sourceTree = "<group>"; };
 		BED5325928F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCellRestaurantes.xib; sourceTree = "<group>"; };
 		BED5326328F47AA10061EE58 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -268,6 +262,7 @@
 				BE42AA8E28FEEB35004A0A08 /* View Sanitizacion */,
 				BE42AA8F28FEEB4A004A0A08 /* View PreFAMEX */,
 				BE42AA9028FEEB5E004A0A08 /* View Configuracion */,
+				BE413ACE28CA29860000B418 /* configuracionViewController.swift */,
 				BE38A02129311D260078514B /* view Pop Ups */,
 			);
 			path = Controller;
@@ -429,7 +424,6 @@
 			isa = PBXGroup;
 			children = (
 				BEB0D3782926D187003CAED9 /* View PopUps Configuracion */,
-				BE413ACE28CA29860000B418 /* configuracionViewController.swift */,
 			);
 			path = "View Configuracion";
 			sourceTree = "<group>";
@@ -574,10 +568,7 @@
 		BEB0D3782926D187003CAED9 /* View PopUps Configuracion */ = {
 			isa = PBXGroup;
 			children = (
-				BEB0D3792926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift */,
-				BEB0D38A2926D264003CAED9 /* PopUpContactoViewController.swift */,
-				BEB0D38F2926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift */,
-				BEB0D3942926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift */,
+				BEC1B3DF29C10F1C00AE86B0 /* PreguntasFrecuentesViewController.swift */,
 			);
 			path = "View PopUps Configuracion";
 			sourceTree = "<group>";
@@ -775,7 +766,7 @@
 			);
 			mainGroup = BE4F827D28B7C7F2004F4DD4;
 			packageReferences = (
-				BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
+				BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = BE4F828728B7C7F2004F4DD4 /* Products */;
 			projectDirPath = "";
@@ -941,10 +932,9 @@
 				BE28433C2922966E00BEF909 /* PopUpExpoEstaticaFranciaViewController.swift in Sources */,
 				BEE18F4D296F0D47004044AE /* MenuModel.swift in Sources */,
 				BEF7DD49294CE364000FA448 /* routesViewController.swift in Sources */,
-				BEB0D37A2926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift in Sources */,
-				BEB0D3902926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift in Sources */,
 				BE413ABB28CA290E0000B418 /* mumaViewController.swift in Sources */,
 				7003409328CACDE300B3AA41 /* extension.swift in Sources */,
+				BEC1B3E029C10F1C00AE86B0 /* PreguntasFrecuentesViewController.swift in Sources */,
 				BE2D6C3B292EA21900F215FC /* chaletsMexicoViewController.swift in Sources */,
 				BE4585D7293E5D9000798F77 /* DateDecoder.swift in Sources */,
 				BE14376B296C6FB5006C102B /* FAMEXText.swift in Sources */,
@@ -965,7 +955,6 @@
 				BE413AB628CA28FA0000B418 /* espectaculoViewController.swift in Sources */,
 				BE4F828A28B7C7F2004F4DD4 /* AppDelegate.swift in Sources */,
 				BEF1FE892937D41E000FF155 /* user.swift in Sources */,
-				BEB0D38B2926D264003CAED9 /* PopUpContactoViewController.swift in Sources */,
 				BE31968728EC836600C8A8B8 /* PopUpIDViewController.swift in Sources */,
 				BE2D6C35292E937B00F215FC /* expoEstaticaMexicoViewController.swift in Sources */,
 				BE7BB61129BA37E200175CAF /* NewUser.swift in Sources */,
@@ -975,7 +964,6 @@
 				BE505A6D291EBD1F00BE1959 /* secondDateViewController.swift in Sources */,
 				BE505A83291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.swift in Sources */,
 				BE413ACA28CA29690000B418 /* prefamexViewController.swift in Sources */,
-				BEB0D3952926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift in Sources */,
 				BED5326428F47AA10061EE58 /* MenuViewController.swift in Sources */,
 				BE505A79291EC8DC00BE1959 /* expoEstaticaFranciaViewController.swift in Sources */,
 				BEC0F802299AD484002582D4 /* BienvenidaViewController.swift in Sources */,
@@ -1326,7 +1314,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+		BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -1339,7 +1327,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		BEF1FE7C2937C720000FF155 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			package = BEF1FE7B2937C720000FF155 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */

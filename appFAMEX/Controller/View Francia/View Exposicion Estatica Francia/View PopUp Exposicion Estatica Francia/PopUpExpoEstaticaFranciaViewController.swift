@@ -35,7 +35,7 @@ class PopUpExpoEstaticaFranciaViewController: UIViewController {
         viewImages.backgroundColor = .clear
         viewDescription.backgroundColor = .clear
         
-        textViewDescription.isEditable = false
+        textViewDescription.isEditable = true
         textViewDescription.backgroundColor = .clear
         
         lblTitlePopUp.textAlignment = .center
