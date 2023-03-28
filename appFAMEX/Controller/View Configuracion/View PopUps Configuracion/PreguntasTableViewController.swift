@@ -22,9 +22,9 @@ class PreguntasTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tableViewData = [cellData(opened: false, title: "Title 1", secctionData: ["cell1", "cell2", "cell3"]),
-                         cellData(opened: false, title: "Title 2", secctionData: ["cell1","cell2","cell3"]),
-                         cellData(opened: false, title: "Title 2", secctionData: ["cell1","cell2","cell3"])
+        tableViewData = [cellData(opened: false, title: "GENERALES", secctionData: ["cell1", "cell2", "cell3"]),
+                         cellData(opened: false, title: "EVENTOS", secctionData: ["cell1","cell2","cell3"]),
+                         cellData(opened: false, title: "RUTAS", secctionData: ["cell1","cell2","cell3"])
                          ]
         
     }
@@ -55,8 +55,7 @@ class PreguntasTableViewController: UITableViewController {
             return cell
         }else{
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell") else {return UITableViewCell()}
-            cell.textLabel?.text = tableViewData[indexPath.section].secctionData[indexPath.row]
-            
+            cell.textLabel?.text = tableViewData[indexPath.section].secctionData[indexPath.row - 1]
             return cell
         }
     }

@@ -52,7 +52,6 @@
 		BE7FFF9E299BEFE1007EB39E /* Pods_appFAMEX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042E86597E080A9297137507 /* Pods_appFAMEX.framework */; };
 		BE870F972989C174007F0E99 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B01362940FDCD0004A1F6 /* profileViewController.swift */; };
 		BE870FB32989CAB0007F0E99 /* franciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AA128CA28660000B418 /* franciaViewController.swift */; };
-		BE88623929CA14B000BD82E1 /* TablePeguntasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88623729CA14B000BD82E1 /* TablePeguntasViewController.swift */; };
 		BE88624229CA188B00BD82E1 /* PreguntasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88624129CA188B00BD82E1 /* PreguntasTableViewController.swift */; };
 		BE88624B29CA23CA00BD82E1 /* PreguntasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88624929CA23CA00BD82E1 /* PreguntasTableViewCell.swift */; };
 		BE88624C29CA23CA00BD82E1 /* PreguntasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE88624A29CA23CA00BD82E1 /* PreguntasTableViewCell.xib */; };
@@ -166,7 +165,6 @@
 		BE680DEA291D6ECF00BB8473 /* TableViewCellMiItinerario.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellMiItinerario.xib; sourceTree = "<group>"; };
 		BE71F948290055F3005B328A /* videoEspectaculo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoEspectaculo.mp4; sourceTree = "<group>"; };
 		BE7BB61029BA37E200175CAF /* NewUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser.swift; sourceTree = "<group>"; };
-		BE88623729CA14B000BD82E1 /* TablePeguntasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablePeguntasViewController.swift; sourceTree = "<group>"; };
 		BE88624129CA188B00BD82E1 /* PreguntasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreguntasTableViewController.swift; sourceTree = "<group>"; };
 		BE88624929CA23CA00BD82E1 /* PreguntasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreguntasTableViewCell.swift; sourceTree = "<group>"; };
 		BE88624A29CA23CA00BD82E1 /* PreguntasTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreguntasTableViewCell.xib; sourceTree = "<group>"; };
@@ -641,7 +639,6 @@
 			isa = PBXGroup;
 			children = (
 				BEC1B3DF29C10F1C00AE86B0 /* PreguntasFrecuentesViewController.swift */,
-				BE88623729CA14B000BD82E1 /* TablePeguntasViewController.swift */,
 				BE88624129CA188B00BD82E1 /* PreguntasTableViewController.swift */,
 				BE88624929CA23CA00BD82E1 /* PreguntasTableViewCell.swift */,
 				BE88624A29CA23CA00BD82E1 /* PreguntasTableViewCell.xib */,
@@ -1030,7 +1027,6 @@
 				BE88629429CA6E8900BD82E1 /* ContactoViewController.swift in Sources */,
 				BE95E46B29D258CE0076BCE9 /* detailConferenciaViewController.swift in Sources */,
 				BE870F972989C174007F0E99 /* profileViewController.swift in Sources */,
-				BE88623929CA14B000BD82E1 /* TablePeguntasViewController.swift in Sources */,
 				BE413AC028CA292E0000B418 /* accesosViewController.swift in Sources */,
 				BE95E46D29D258CE0076BCE9 /* TableViewCellChalet.swift in Sources */,
 				BE95F5E328CB7EA20093D0A7 /* appFAMEX.xcdatamodeld in Sources */,
