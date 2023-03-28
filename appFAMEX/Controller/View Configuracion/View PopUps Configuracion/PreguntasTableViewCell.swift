@@ -9,8 +9,14 @@ import UIKit
 
 class PreguntasTableViewCell: UITableViewCell {
 
+    
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        
         // Initialization code
     }
 

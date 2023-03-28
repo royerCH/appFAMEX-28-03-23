@@ -12,6 +12,10 @@ class PreguntasFrecuentesViewController:  UIViewController{
     
 
     
+
+    
+
+    
 //    , UITableViewDelegate, UITableViewDataSource
     @IBOutlet weak var btnCerrar: UIButton!
     @IBOutlet weak var lblPreguntas: UILabel!
@@ -25,11 +29,8 @@ class PreguntasFrecuentesViewController:  UIViewController{
     
     @IBOutlet weak var btnRutas: UIButton!
     @IBOutlet weak var lblRutas: UILabel!
- 
-
-    @IBOutlet weak var tableViewChaletFrancia: UITableView!
     @IBOutlet weak var viewContentHeader: UIView!
-    
+    @IBOutlet weak var tableViewPreguntas: UITableView!
     
 //    private let tableView: UITableView = {
 //        let tableView = UITableView()
@@ -48,12 +49,7 @@ class PreguntasFrecuentesViewController:  UIViewController{
         super.viewDidLoad()
 //
 //
-//
-//        view.addSubview(tableView)
-//        tableView.delegate = self
-//        tableView.dataSource = self
-//        tableView.frame = view.bounds
-        
+
         
         
         btnCerrar.setTitle("Cerrar", for: .normal)
@@ -73,10 +69,18 @@ class PreguntasFrecuentesViewController:  UIViewController{
         
         //----------------------Views
         viewContentHeader.backgroundColor = .none
-        viewButtons.backgroundColor = .none
+        viewButtons.backgroundColor = .systemPink
         
+        
+        
+//
+        tableViewPreguntas.register(UINib(nibName: "PreguntasTableViewController", bundle: nil), forCellReuseIdentifier: "cell")
+
+
            
     }
+    
+
     
 //    
     
@@ -85,17 +89,9 @@ class PreguntasFrecuentesViewController:  UIViewController{
         
      
         dismiss(animated: true, completion: nil)
-        print("botón Generales")
-    }
-    
-    /*
-    // MARK: - Navigation
+        print("botón cerrar")
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
+  
     
 }
