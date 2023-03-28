@@ -134,7 +134,7 @@ class itinerarioViewController: UIViewController, protocoloMenu {
     @IBAction func btnActionShareItinerario(_ sender: Any) {
    
         let pdfFilePath = self.tableViewMiItinerario.exportAsPdfFromTable()
-        print("Se implimio correctamente el Doc PDF \(pdfFilePath)")
+        print("Se imprimio correctamente el Doc PDF \(pdfFilePath)")
         
         
         
@@ -168,7 +168,7 @@ extension itinerarioViewController: UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         
-        let deleteAction = UIContextualAction(style: .normal, title: "Delete") { _, _, _ in self.context.delete(self.itinerarioList[indexPath.row])
+        let deleteAction = UIContextualAction(style: .normal, title: "Borrar") { _, _, _ in self.context.delete(self.itinerarioList[indexPath.row])
             self.itinerarioList.remove(at: indexPath.row)
             self.save()
         }
@@ -193,7 +193,7 @@ extension itinerarioViewController: UITableViewDelegate, UITableViewDataSource {
         vc.title = "Detalles"
         let navBarOnModal: UINavigationController = UINavigationController(rootViewController: vc)
         
-        vc.titleConferencia = "Hola"
+        vc.titleConferencia = "Hola mundo"
         
         
         self.present(navBarOnModal, animated: true, completion: nil)

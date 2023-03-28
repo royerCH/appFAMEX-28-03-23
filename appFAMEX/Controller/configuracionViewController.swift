@@ -27,7 +27,7 @@ class configuracionViewController: UIViewController, protocoloMenu {
     @IBOutlet weak var btnSobreLaAplicacion: UIButton!
     @IBOutlet weak var btnTerminosYCondiciones: UIButton!
     
-    
+    //let ConfiguracionViewController = configuracionViewController()
     
     // Labels
     @IBOutlet weak var lblConfiguracion: UILabel!
@@ -39,8 +39,9 @@ class configuracionViewController: UIViewController, protocoloMenu {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = #colorLiteral(red: 0.0307629546, green: 0.1608202691, blue: 0.325432595, alpha: 1)
-
+        //view.backgroundColor = #colorLiteral(red: 0.0307629546, green: 0.1608202691, blue: 0.325432595, alpha: 1)
+        
+    
         viewOptionSelect = viewConfiguracion.transform  // Animacion del menu
         customNavigationBar()                           // Poner navigation Bar
         addchildController()                            // Poner Menu
@@ -70,7 +71,7 @@ class configuracionViewController: UIViewController, protocoloMenu {
         navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.07122091204, green: 0.05044277757, blue: 0.1986504793, alpha: 1)
         navigationController?.navigationBar.barStyle = .black
         
-        navigationItem.title = "CONFIGURACION"
+        navigationItem.title = "CONFIGURACIÓN"
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "imgBtnHamburguesa")?.withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(btnMenuHamburguesa))
     }
     
@@ -146,27 +147,51 @@ class configuracionViewController: UIViewController, protocoloMenu {
    @IBAction func btnActionIdioma(_ sender: Any)
     {
     
+   print("Soy botón idioma ")
        
     
    }
     // Accion para el boton Notificaciones *s/f
    @IBAction func btnActionNotificaciones(_ sender: Any)
-    { }
+    {
+    print("botón notificaciones")
+   }
     // Accion para el boton Preguntas Frecuentes *s/f
    @IBAction func btnActionPreguntasFrecuentes(_ sender: Any)
-    { }
+    {
+    
+        performSegue(withIdentifier: "preguntasSegue", sender: self)
+    print("preguntame ")
+   }
     // Accion para el boton Reportar n Problema *s/f
    @IBAction func btnActionReportarUnProblema(_ sender: Any)
-    { }
+    {
+    print("botón reportar problemas")
+    
+    
+    
+    
+   }
     // Accion para el boton Contacto *s/f
    @IBAction func btnActionContacto(_ sender: Any)
-    { }
+    {
+        performSegue(withIdentifier: "contactoSegue", sender: self)
+
+    print("botón contacto")
+   }
     // Accion para el boton Sobre La Aplicacion *s/f
    @IBAction func btnActionSobreLaAplicacion(_ sender: Any)
-    { }
+    {
+        performSegue(withIdentifier: "sobreappSegue", sender: self)
+    
+    print("botón sobre la app")
+   }
     // Accion para el boton Terminos Y Condiciones *s/f
    @IBAction func btnActionTerminosYCondiciones(_ sender: Any)
-    { }
+    {
+        performSegue(withIdentifier: "terminosSegue", sender: self)
+    print("botón términos y condiciones ")
+   }
     
     
     

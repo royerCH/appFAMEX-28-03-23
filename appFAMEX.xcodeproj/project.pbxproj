@@ -16,13 +16,8 @@
 		BE14376B296C6FB5006C102B /* FAMEXText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14376A296C6FB5006C102B /* FAMEXText.swift */; };
 		BE1B01402941044C0004A1F6 /* ImagesProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B013E2941044C0004A1F6 /* ImagesProfileCollectionViewCell.swift */; };
 		BE1B01412941044C0004A1F6 /* ImagesProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1B013F2941044C0004A1F6 /* ImagesProfileCollectionViewCell.xib */; };
-		BE1E1F4C291C164C009D981C /* ConferenciasFranciaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E1F4A291C164C009D981C /* ConferenciasFranciaTableViewCell.swift */; };
-		BE1E1F4D291C164C009D981C /* ConferenciasFranciaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1E1F4B291C164C009D981C /* ConferenciasFranciaTableViewCell.xib */; };
-		BE1E1F52291C361C009D981C /* detailConferenciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E1F51291C361C009D981C /* detailConferenciaViewController.swift */; };
-		BE28433C2922966E00BEF909 /* PopUpExpoEstaticaFranciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28433B2922966E00BEF909 /* PopUpExpoEstaticaFranciaViewController.swift */; };
 		BE2D6C35292E937B00F215FC /* expoEstaticaMexicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D6C34292E937B00F215FC /* expoEstaticaMexicoViewController.swift */; };
 		BE2D6C3B292EA21900F215FC /* chaletsMexicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D6C3A292EA21900F215FC /* chaletsMexicoViewController.swift */; };
-		BE2D6C46292EA9EA00F215FC /* firstDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D6C45292EA9EA00F215FC /* firstDateViewController.swift */; };
 		BE31968228EC834C00C8A8B8 /* PopUpLideresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31968128EC834C00C8A8B8 /* PopUpLideresViewController.swift */; };
 		BE31968728EC836600C8A8B8 /* PopUpIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31968628EC836600C8A8B8 /* PopUpIDViewController.swift */; };
 		BE31968C28EC838200C8A8B8 /* PopUpExitoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE31968B28EC838200C8A8B8 /* PopUpExitoViewController.swift */; };
@@ -30,6 +25,8 @@
 		BE3248112943B0E900D9EC0F /* HotelsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE32480F2943B0E900D9EC0F /* HotelsCollectionViewCell.swift */; };
 		BE3248122943B0E900D9EC0F /* HotelsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3248102943B0E900D9EC0F /* HotelsCollectionViewCell.xib */; };
 		BE38A02329311DDA0078514B /* popUpAddMiItinerarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE38A02229311DDA0078514B /* popUpAddMiItinerarioViewController.swift */; };
+		BE3A247629CCCDB800A38CBC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE3A247529CCCDB800A38CBC /* Localizable.strings */; };
+		BE3A247F29CCD38600A38CBC /* DesarrolladoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3A247E29CCD38600A38CBC /* DesarrolladoresViewController.swift */; };
 		BE413AA728CA28840000B418 /* eventosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AA628CA28840000B418 /* eventosViewController.swift */; };
 		BE413AAC28CA28A00000B418 /* itinerarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AAB28CA28A00000B418 /* itinerarioViewController.swift */; };
 		BE413AB128CA28BE0000B418 /* restaurantesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AB028CA28BE0000B418 /* restaurantesViewController.swift */; };
@@ -47,35 +44,47 @@
 		BE4F829628B7C7F3004F4DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4F829528B7C7F3004F4DD4 /* Assets.xcassets */; };
 		BE4F82A428B7C7F3004F4DD4 /* appFAMEXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F82A328B7C7F3004F4DD4 /* appFAMEXTests.swift */; };
 		BE4F82AF28B7C7F3004F4DD4 /* appFAMEXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F82AE28B7C7F3004F4DD4 /* appFAMEXUITests.swift */; };
-		BE505A6D291EBD1F00BE1959 /* secondDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE505A6C291EBD1F00BE1959 /* secondDateViewController.swift */; };
-		BE505A79291EC8DC00BE1959 /* expoEstaticaFranciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE505A78291EC8DC00BE1959 /* expoEstaticaFranciaViewController.swift */; };
-		BE505A83291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE505A81291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.swift */; };
-		BE505A84291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE505A82291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.xib */; };
 		BE5FBD7628EF2808005F812A /* MapaGeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5FBD7528EF2808005F812A /* MapaGeneralViewController.swift */; };
 		BE680DEB291D6ECF00BB8473 /* TableViewCellMiItinerario.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE680DE9291D6ECF00BB8473 /* TableViewCellMiItinerario.swift */; };
 		BE680DEC291D6ECF00BB8473 /* TableViewCellMiItinerario.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE680DEA291D6ECF00BB8473 /* TableViewCellMiItinerario.xib */; };
 		BE71F949290055F3005B328A /* videoEspectaculo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BE71F948290055F3005B328A /* videoEspectaculo.mp4 */; };
-		BE782E712915848800B7FD70 /* accesosprioritarios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE782E702915848800B7FD70 /* accesosprioritarios.pdf */; };
-		BE782E76291588FE00B7FD70 /* puntodesanitizacion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE782E75291588FE00B7FD70 /* puntodesanitizacion.pdf */; };
+		BE7BB61129BA37E200175CAF /* NewUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7BB61029BA37E200175CAF /* NewUser.swift */; };
 		BE7FFF9E299BEFE1007EB39E /* Pods_appFAMEX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042E86597E080A9297137507 /* Pods_appFAMEX.framework */; };
 		BE870F972989C174007F0E99 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B01362940FDCD0004A1F6 /* profileViewController.swift */; };
 		BE870FB32989CAB0007F0E99 /* franciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE413AA128CA28660000B418 /* franciaViewController.swift */; };
+		BE88623929CA14B000BD82E1 /* TablePeguntasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88623729CA14B000BD82E1 /* TablePeguntasViewController.swift */; };
+		BE88624229CA188B00BD82E1 /* PreguntasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88624129CA188B00BD82E1 /* PreguntasTableViewController.swift */; };
+		BE88624B29CA23CA00BD82E1 /* PreguntasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88624929CA23CA00BD82E1 /* PreguntasTableViewCell.swift */; };
+		BE88624C29CA23CA00BD82E1 /* PreguntasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE88624A29CA23CA00BD82E1 /* PreguntasTableViewCell.xib */; };
+		BE88625429CA2BC100BD82E1 /* TableViewCellMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88625329CA2BC100BD82E1 /* TableViewCellMenu.swift */; };
+		BE88628029CA52D500BD82E1 /* TerminosYCondicionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88627F29CA52D500BD82E1 /* TerminosYCondicionesViewController.swift */; };
+		BE88628E29CA6C7200BD82E1 /* SobreLaAplicacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88628D29CA6C7200BD82E1 /* SobreLaAplicacionViewController.swift */; };
+		BE88629429CA6E8900BD82E1 /* ContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88629329CA6E8900BD82E1 /* ContactoViewController.swift */; };
+		BE95E43329D247650076BCE9 /* puntodesanitizacion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE95E43229D247650076BCE9 /* puntodesanitizacion.pdf */; };
+		BE95E43B29D2491F0076BCE9 /* accesosprioritarios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE95E43A29D2491F0076BCE9 /* accesosprioritarios.pdf */; };
+		BE95E44629D249DD0076BCE9 /* mapaGeneral.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE95E44529D249DD0076BCE9 /* mapaGeneral.pdf */; };
+		BE95E46729D258CE0076BCE9 /* secondDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE95E45829D258CD0076BCE9 /* secondDateViewController.swift */; };
+		BE95E46829D258CE0076BCE9 /* ConferenciasFranciaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE95E45929D258CD0076BCE9 /* ConferenciasFranciaTableViewCell.xib */; };
+		BE95E46929D258CE0076BCE9 /* ConferenciasFranciaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE95E45A29D258CD0076BCE9 /* ConferenciasFranciaTableViewCell.swift */; };
+		BE95E46A29D258CE0076BCE9 /* firstDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE95E45B29D258CD0076BCE9 /* firstDateViewController.swift */; };
+		BE95E46B29D258CE0076BCE9 /* detailConferenciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE95E45C29D258CD0076BCE9 /* detailConferenciaViewController.swift */; };
+		BE95E46C29D258CE0076BCE9 /* TableViewCellChalet.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE95E45E29D258CD0076BCE9 /* TableViewCellChalet.xib */; };
+		BE95E46D29D258CE0076BCE9 /* TableViewCellChalet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE95E45F29D258CD0076BCE9 /* TableViewCellChalet.swift */; };
+		BE95E46E29D258CE0076BCE9 /* chaletsFranciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE95E46029D258CD0076BCE9 /* chaletsFranciaViewController.swift */; };
+		BE95E46F29D258CE0076BCE9 /* expoEstaticaFranciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE95E46229D258CD0076BCE9 /* expoEstaticaFranciaViewController.swift */; };
+		BE95E47029D258CE0076BCE9 /* PopUpExpoEstaticaFranciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE95E46429D258CD0076BCE9 /* PopUpExpoEstaticaFranciaViewController.swift */; };
+		BE95E47129D258CE0076BCE9 /* expoEstaticaFranciaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE95E46529D258CE0076BCE9 /* expoEstaticaFranciaCollectionViewCell.swift */; };
+		BE95E47229D258CE0076BCE9 /* expoEstaticaFranciaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE95E46629D258CE0076BCE9 /* expoEstaticaFranciaCollectionViewCell.xib */; };
 		BE95F5DA28CB7E210093D0A7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE95F5D928CB7E210093D0A7 /* Launch Screen.storyboard */; };
 		BE95F5E328CB7EA20093D0A7 /* appFAMEX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE95F5E128CB7EA20093D0A7 /* appFAMEX.xcdatamodeld */; };
-		BEB0D36A2926A978003CAED9 /* chaletsFranciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D3692926A978003CAED9 /* chaletsFranciaViewController.swift */; };
-		BEB0D3732926BC6C003CAED9 /* TableViewCellChalet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D3712926BC6C003CAED9 /* TableViewCellChalet.swift */; };
-		BEB0D3742926BC6C003CAED9 /* TableViewCellChalet.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB0D3722926BC6C003CAED9 /* TableViewCellChalet.xib */; };
-		BEB0D37A2926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D3792926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift */; };
-		BEB0D38B2926D264003CAED9 /* PopUpContactoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D38A2926D264003CAED9 /* PopUpContactoViewController.swift */; };
-		BEB0D3902926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D38F2926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift */; };
-		BEB0D3952926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0D3942926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift */; };
+		BEAD8CD629B290330039C740 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEAD8CD529B290330039C740 /* GoogleService-Info.plist */; };
 		BEB6FF0428E7552600C047D3 /* PopUpPuestosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6FF0328E7552600C047D3 /* PopUpPuestosViewController.swift */; };
 		BEB9882629A022A500BDCF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB9882829A022A500BDCF24 /* Main.storyboard */; };
 		BEC0F802299AD484002582D4 /* BienvenidaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC0F801299AD484002582D4 /* BienvenidaViewController.swift */; };
+		BEC1B3E029C10F1C00AE86B0 /* PreguntasFrecuentesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC1B3DF29C10F1C00AE86B0 /* PreguntasFrecuentesViewController.swift */; };
 		BED5325A28F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5325828F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.swift */; };
 		BED5325B28F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.xib in Resources */ = {isa = PBXBuildFile; fileRef = BED5325928F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.xib */; };
 		BED5326428F47AA10061EE58 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5326328F47AA10061EE58 /* MenuViewController.swift */; };
-		BED5326A28F486E90061EE58 /* TableViewCellMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5326828F486E90061EE58 /* TableViewCellMenu.swift */; };
 		BED5326B28F486E90061EE58 /* TableViewCellMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BED5326928F486E90061EE58 /* TableViewCellMenu.xib */; };
 		BEE18F4D296F0D47004044AE /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE18F4C296F0D47004044AE /* MenuModel.swift */; };
 		BEF1FE7D2937C720000FF155 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BEF1FE7C2937C720000FF155 /* Alamofire */; };
@@ -83,7 +92,6 @@
 		BEF1FE892937D41E000FF155 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1FE882937D41E000FF155 /* user.swift */; };
 		BEF7DD49294CE364000FA448 /* routesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7DD48294CE364000FA448 /* routesViewController.swift */; };
 		BEFB66712965E2F400B81BD3 /* Plateia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEFB66702965E2F400B81BD3 /* Plateia.ttf */; };
-		BEFFA451299552D200A7A4F8 /* mapaGeneral.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEFFA450299552D200A7A4F8 /* mapaGeneral.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,13 +126,8 @@
 		BE1B01362940FDCD0004A1F6 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		BE1B013E2941044C0004A1F6 /* ImagesProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		BE1B013F2941044C0004A1F6 /* ImagesProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesProfileCollectionViewCell.xib; sourceTree = "<group>"; };
-		BE1E1F4A291C164C009D981C /* ConferenciasFranciaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenciasFranciaTableViewCell.swift; sourceTree = "<group>"; };
-		BE1E1F4B291C164C009D981C /* ConferenciasFranciaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConferenciasFranciaTableViewCell.xib; sourceTree = "<group>"; };
-		BE1E1F51291C361C009D981C /* detailConferenciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailConferenciaViewController.swift; sourceTree = "<group>"; };
-		BE28433B2922966E00BEF909 /* PopUpExpoEstaticaFranciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpExpoEstaticaFranciaViewController.swift; sourceTree = "<group>"; };
 		BE2D6C34292E937B00F215FC /* expoEstaticaMexicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expoEstaticaMexicoViewController.swift; sourceTree = "<group>"; };
 		BE2D6C3A292EA21900F215FC /* chaletsMexicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chaletsMexicoViewController.swift; sourceTree = "<group>"; };
-		BE2D6C45292EA9EA00F215FC /* firstDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstDateViewController.swift; sourceTree = "<group>"; };
 		BE31968128EC834C00C8A8B8 /* PopUpLideresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpLideresViewController.swift; sourceTree = "<group>"; };
 		BE31968628EC836600C8A8B8 /* PopUpIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpIDViewController.swift; sourceTree = "<group>"; };
 		BE31968B28EC838200C8A8B8 /* PopUpExitoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpExitoViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 		BE32480F2943B0E900D9EC0F /* HotelsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsCollectionViewCell.swift; sourceTree = "<group>"; };
 		BE3248102943B0E900D9EC0F /* HotelsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelsCollectionViewCell.xib; sourceTree = "<group>"; };
 		BE38A02229311DDA0078514B /* popUpAddMiItinerarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpAddMiItinerarioViewController.swift; sourceTree = "<group>"; };
+		BE3A247529CCCDB800A38CBC /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		BE3A247E29CCD38600A38CBC /* DesarrolladoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesarrolladoresViewController.swift; sourceTree = "<group>"; };
 		BE413AA128CA28660000B418 /* franciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = franciaViewController.swift; sourceTree = "<group>"; };
 		BE413AA628CA28840000B418 /* eventosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventosViewController.swift; sourceTree = "<group>"; };
 		BE413AAB28CA28A00000B418 /* itinerarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itinerarioViewController.swift; sourceTree = "<group>"; };
@@ -156,39 +161,50 @@
 		BE4F82AA28B7C7F3004F4DD4 /* appFAMEXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appFAMEXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4F82AE28B7C7F3004F4DD4 /* appFAMEXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appFAMEXUITests.swift; sourceTree = "<group>"; };
 		BE4F82B028B7C7F3004F4DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE505A6C291EBD1F00BE1959 /* secondDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondDateViewController.swift; sourceTree = "<group>"; };
-		BE505A78291EC8DC00BE1959 /* expoEstaticaFranciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expoEstaticaFranciaViewController.swift; sourceTree = "<group>"; };
-		BE505A81291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expoEstaticaFranciaCollectionViewCell.swift; sourceTree = "<group>"; };
-		BE505A82291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = expoEstaticaFranciaCollectionViewCell.xib; sourceTree = "<group>"; };
 		BE5FBD7528EF2808005F812A /* MapaGeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaGeneralViewController.swift; sourceTree = "<group>"; };
 		BE680DE9291D6ECF00BB8473 /* TableViewCellMiItinerario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellMiItinerario.swift; sourceTree = "<group>"; };
 		BE680DEA291D6ECF00BB8473 /* TableViewCellMiItinerario.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellMiItinerario.xib; sourceTree = "<group>"; };
 		BE71F948290055F3005B328A /* videoEspectaculo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoEspectaculo.mp4; sourceTree = "<group>"; };
-		BE782E702915848800B7FD70 /* accesosprioritarios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = accesosprioritarios.pdf; sourceTree = "<group>"; };
-		BE782E75291588FE00B7FD70 /* puntodesanitizacion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = puntodesanitizacion.pdf; sourceTree = "<group>"; };
+		BE7BB61029BA37E200175CAF /* NewUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUser.swift; sourceTree = "<group>"; };
+		BE88623729CA14B000BD82E1 /* TablePeguntasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablePeguntasViewController.swift; sourceTree = "<group>"; };
+		BE88624129CA188B00BD82E1 /* PreguntasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreguntasTableViewController.swift; sourceTree = "<group>"; };
+		BE88624929CA23CA00BD82E1 /* PreguntasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreguntasTableViewCell.swift; sourceTree = "<group>"; };
+		BE88624A29CA23CA00BD82E1 /* PreguntasTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreguntasTableViewCell.xib; sourceTree = "<group>"; };
+		BE88625329CA2BC100BD82E1 /* TableViewCellMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellMenu.swift; sourceTree = "<group>"; };
+		BE88627F29CA52D500BD82E1 /* TerminosYCondicionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminosYCondicionesViewController.swift; sourceTree = "<group>"; };
+		BE88628D29CA6C7200BD82E1 /* SobreLaAplicacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreLaAplicacionViewController.swift; sourceTree = "<group>"; };
+		BE88629329CA6E8900BD82E1 /* ContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactoViewController.swift; sourceTree = "<group>"; };
+		BE95E43229D247650076BCE9 /* puntodesanitizacion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = puntodesanitizacion.pdf; sourceTree = "<group>"; };
+		BE95E43A29D2491F0076BCE9 /* accesosprioritarios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = accesosprioritarios.pdf; sourceTree = "<group>"; };
+		BE95E44529D249DD0076BCE9 /* mapaGeneral.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mapaGeneral.pdf; sourceTree = "<group>"; };
+		BE95E45829D258CD0076BCE9 /* secondDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondDateViewController.swift; sourceTree = "<group>"; };
+		BE95E45929D258CD0076BCE9 /* ConferenciasFranciaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConferenciasFranciaTableViewCell.xib; sourceTree = "<group>"; };
+		BE95E45A29D258CD0076BCE9 /* ConferenciasFranciaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenciasFranciaTableViewCell.swift; sourceTree = "<group>"; };
+		BE95E45B29D258CD0076BCE9 /* firstDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstDateViewController.swift; sourceTree = "<group>"; };
+		BE95E45C29D258CD0076BCE9 /* detailConferenciaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailConferenciaViewController.swift; sourceTree = "<group>"; };
+		BE95E45E29D258CD0076BCE9 /* TableViewCellChalet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCellChalet.xib; sourceTree = "<group>"; };
+		BE95E45F29D258CD0076BCE9 /* TableViewCellChalet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellChalet.swift; sourceTree = "<group>"; };
+		BE95E46029D258CD0076BCE9 /* chaletsFranciaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chaletsFranciaViewController.swift; sourceTree = "<group>"; };
+		BE95E46229D258CD0076BCE9 /* expoEstaticaFranciaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = expoEstaticaFranciaViewController.swift; sourceTree = "<group>"; };
+		BE95E46429D258CD0076BCE9 /* PopUpExpoEstaticaFranciaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpExpoEstaticaFranciaViewController.swift; sourceTree = "<group>"; };
+		BE95E46529D258CE0076BCE9 /* expoEstaticaFranciaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = expoEstaticaFranciaCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE95E46629D258CE0076BCE9 /* expoEstaticaFranciaCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = expoEstaticaFranciaCollectionViewCell.xib; sourceTree = "<group>"; };
 		BE95F5D928CB7E210093D0A7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BE95F5E228CB7EA20093D0A7 /* appFAMEX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = appFAMEX.xcdatamodel; sourceTree = "<group>"; };
-		BEB0D3692926A978003CAED9 /* chaletsFranciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chaletsFranciaViewController.swift; sourceTree = "<group>"; };
-		BEB0D3712926BC6C003CAED9 /* TableViewCellChalet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellChalet.swift; sourceTree = "<group>"; };
-		BEB0D3722926BC6C003CAED9 /* TableViewCellChalet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellChalet.xib; sourceTree = "<group>"; };
-		BEB0D3792926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpPreguntasFrecuentesViewController.swift; sourceTree = "<group>"; };
-		BEB0D38A2926D264003CAED9 /* PopUpContactoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpContactoViewController.swift; sourceTree = "<group>"; };
-		BEB0D38F2926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpSobreLaAplicacionViewController.swift; sourceTree = "<group>"; };
-		BEB0D3942926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppTerminosYCondicionesViewController.swift; sourceTree = "<group>"; };
+		BEAD8CD529B290330039C740 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BEB6FF0328E7552600C047D3 /* PopUpPuestosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpPuestosViewController.swift; sourceTree = "<group>"; };
 		BEB9882729A022A500BDCF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEC0F801299AD484002582D4 /* BienvenidaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BienvenidaViewController.swift; sourceTree = "<group>"; };
+		BEC1B3DF29C10F1C00AE86B0 /* PreguntasFrecuentesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreguntasFrecuentesViewController.swift; sourceTree = "<group>"; };
 		BED5325828F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCellRestaurantes.swift; sourceTree = "<group>"; };
 		BED5325928F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCellRestaurantes.xib; sourceTree = "<group>"; };
 		BED5326328F47AA10061EE58 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		BED5326828F486E90061EE58 /* TableViewCellMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellMenu.swift; sourceTree = "<group>"; };
 		BED5326928F486E90061EE58 /* TableViewCellMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellMenu.xib; sourceTree = "<group>"; };
 		BEE18F4C296F0D47004044AE /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		BEF1FE812937C77F000FF155 /* NetworkingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingProvider.swift; sourceTree = "<group>"; };
 		BEF1FE882937D41E000FF155 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 		BEF7DD48294CE364000FA448 /* routesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routesViewController.swift; sourceTree = "<group>"; };
 		BEFB66702965E2F400B81BD3 /* Plateia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Plateia.ttf; sourceTree = "<group>"; };
-		BEFFA450299552D200A7A4F8 /* mapaGeneral.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mapaGeneral.pdf; sourceTree = "<group>"; };
 		BEFFA458299553C400A7A4F8 /* videoEspectaculo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoEspectaculo.mp4; sourceTree = "<group>"; };
 		CE41D424DB3CF800E497F5E2 /* Pods-appFAMEX-appFAMEXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appFAMEX-appFAMEXUITests.release.xcconfig"; path = "Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D64FD3F0BA86F72FB103E925 /* Pods_appFAMEXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appFAMEXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -264,6 +280,7 @@
 				BE42AA8E28FEEB35004A0A08 /* View Sanitizacion */,
 				BE42AA8F28FEEB4A004A0A08 /* View PreFAMEX */,
 				BE42AA9028FEEB5E004A0A08 /* View Configuracion */,
+				BE413ACE28CA29860000B418 /* configuracionViewController.swift */,
 				BE38A02129311D260078514B /* view Pop Ups */,
 			);
 			path = Controller;
@@ -277,25 +294,6 @@
 				BE1B013F2941044C0004A1F6 /* ImagesProfileCollectionViewCell.xib */,
 			);
 			path = "view Profile";
-			sourceTree = "<group>";
-		};
-		BE1E1F46291C1591009D981C /* View First Date */ = {
-			isa = PBXGroup;
-			children = (
-				BE2D6C45292EA9EA00F215FC /* firstDateViewController.swift */,
-				BE505A6C291EBD1F00BE1959 /* secondDateViewController.swift */,
-				BE1E1F4A291C164C009D981C /* ConferenciasFranciaTableViewCell.swift */,
-				BE1E1F4B291C164C009D981C /* ConferenciasFranciaTableViewCell.xib */,
-			);
-			path = "View First Date";
-			sourceTree = "<group>";
-		};
-		BE28433A292295BB00BEF909 /* View PopUp Exposicion Estatica Francia */ = {
-			isa = PBXGroup;
-			children = (
-				BE28433B2922966E00BEF909 /* PopUpExpoEstaticaFranciaViewController.swift */,
-			);
-			path = "View PopUp Exposicion Estatica Francia";
 			sourceTree = "<group>";
 		};
 		BE2D6C30292E930F00F215FC /* View Exposicion Estatica Mexico */ = {
@@ -332,6 +330,14 @@
 			path = "view Pop Ups";
 			sourceTree = "<group>";
 		};
+		BE3A247A29CCD36700A38CBC /* Desarrolladores */ = {
+			isa = PBXGroup;
+			children = (
+				BE3A247E29CCD38600A38CBC /* DesarrolladoresViewController.swift */,
+			);
+			path = Desarrolladores;
+			sourceTree = "<group>";
+		};
 		BE42AA8628FEEA51004A0A08 /* View Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,6 +350,7 @@
 			isa = PBXGroup;
 			children = (
 				7037A25A28BD9D5200DCB43C /* SignUpViewController.swift */,
+				BE7BB61029BA37E200175CAF /* NewUser.swift */,
 			);
 			path = "View CreateUsr";
 			sourceTree = "<group>";
@@ -395,7 +402,7 @@
 		BE42AA8D28FEEB21004A0A08 /* View Accesos */ = {
 			isa = PBXGroup;
 			children = (
-				BE782E702915848800B7FD70 /* accesosprioritarios.pdf */,
+				BE95E43A29D2491F0076BCE9 /* accesosprioritarios.pdf */,
 				BE413ABF28CA292E0000B418 /* accesosViewController.swift */,
 			);
 			path = "View Accesos";
@@ -404,7 +411,7 @@
 		BE42AA8E28FEEB35004A0A08 /* View Sanitizacion */ = {
 			isa = PBXGroup;
 			children = (
-				BE782E75291588FE00B7FD70 /* puntodesanitizacion.pdf */,
+				BE95E43229D247650076BCE9 /* puntodesanitizacion.pdf */,
 				BE413AC428CA294D0000B418 /* sanitizacionViewController.swift */,
 			);
 			path = "View Sanitizacion";
@@ -423,8 +430,11 @@
 		BE42AA9028FEEB5E004A0A08 /* View Configuracion */ = {
 			isa = PBXGroup;
 			children = (
+				BE88629229CA6E5E00BD82E1 /* View Contacto */,
+				BE88628429CA6BC300BD82E1 /* View Sobre la Aplicación */,
+				BE88627E29CA51F500BD82E1 /* View Terminos y Condiciones */,
+				BE88627D29CA4DB400BD82E1 /* View reportar un problema */,
 				BEB0D3782926D187003CAED9 /* View PopUps Configuracion */,
-				BE413ACE28CA29860000B418 /* configuracionViewController.swift */,
 			);
 			path = "View Configuracion";
 			sourceTree = "<group>";
@@ -440,6 +450,7 @@
 		BE4F827D28B7C7F2004F4DD4 = {
 			isa = PBXGroup;
 			children = (
+				BE3A247529CCCDB800A38CBC /* Localizable.strings */,
 				BE4F828828B7C7F2004F4DD4 /* appFAMEX */,
 				BE4F82A228B7C7F3004F4DD4 /* appFAMEXTests */,
 				BE4F82AD28B7C7F3004F4DD4 /* appFAMEXUITests */,
@@ -473,6 +484,7 @@
 				BE4F828928B7C7F2004F4DD4 /* AppDelegate.swift */,
 				BE4F829528B7C7F3004F4DD4 /* Assets.xcassets */,
 				BE4F829A28B7C7F3004F4DD4 /* Info.plist */,
+				BEAD8CD529B290330039C740 /* GoogleService-Info.plist */,
 			);
 			path = appFAMEX;
 			sourceTree = "<group>";
@@ -495,17 +507,6 @@
 			path = appFAMEXUITests;
 			sourceTree = "<group>";
 		};
-		BE505A74291EC85D00BE1959 /* View Exposicion Estatica Francia */ = {
-			isa = PBXGroup;
-			children = (
-				BE505A78291EC8DC00BE1959 /* expoEstaticaFranciaViewController.swift */,
-				BE505A81291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.swift */,
-				BE505A82291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.xib */,
-				BE28433A292295BB00BEF909 /* View PopUp Exposicion Estatica Francia */,
-			);
-			path = "View Exposicion Estatica Francia";
-			sourceTree = "<group>";
-		};
 		BE505A7D291EC8EE00BE1959 /* View PopUps Francia */ = {
 			isa = PBXGroup;
 			children = (
@@ -520,7 +521,8 @@
 		BE5FBD6F28EF15AF005F812A /* View Eventos */ = {
 			isa = PBXGroup;
 			children = (
-				BEFFA450299552D200A7A4F8 /* mapaGeneral.pdf */,
+				BE95E44529D249DD0076BCE9 /* mapaGeneral.pdf */,
+				BE95E42129D2391C0076BCE9 /* ViewPabellones */,
 				BE5FBD7528EF2808005F812A /* MapaGeneralViewController.swift */,
 				BE413AA628CA28840000B418 /* eventosViewController.swift */,
 				BE2D6C39292EA1F600F215FC /* View Chalets Mexico */,
@@ -529,13 +531,93 @@
 			path = "View Eventos";
 			sourceTree = "<group>";
 		};
-		BE66BEC5291ABEF80009BD6E /* View Conferencias */ = {
+		BE88627D29CA4DB400BD82E1 /* View reportar un problema */ = {
 			isa = PBXGroup;
 			children = (
-				BE1E1F51291C361C009D981C /* detailConferenciaViewController.swift */,
-				BE1E1F46291C1591009D981C /* View First Date */,
+			);
+			path = "View reportar un problema";
+			sourceTree = "<group>";
+		};
+		BE88627E29CA51F500BD82E1 /* View Terminos y Condiciones */ = {
+			isa = PBXGroup;
+			children = (
+				BE88627F29CA52D500BD82E1 /* TerminosYCondicionesViewController.swift */,
+			);
+			path = "View Terminos y Condiciones";
+			sourceTree = "<group>";
+		};
+		BE88628429CA6BC300BD82E1 /* View Sobre la Aplicación */ = {
+			isa = PBXGroup;
+			children = (
+				BE3A247A29CCD36700A38CBC /* Desarrolladores */,
+				BE88628D29CA6C7200BD82E1 /* SobreLaAplicacionViewController.swift */,
+			);
+			name = "View Sobre la Aplicación";
+			path = "View Sobre la Aplicación";
+			sourceTree = "<group>";
+		};
+		BE88629229CA6E5E00BD82E1 /* View Contacto */ = {
+			isa = PBXGroup;
+			children = (
+				BE88629329CA6E8900BD82E1 /* ContactoViewController.swift */,
+			);
+			path = "View Contacto";
+			sourceTree = "<group>";
+		};
+		BE95E42129D2391C0076BCE9 /* ViewPabellones */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewPabellones;
+			sourceTree = "<group>";
+		};
+		BE95E45629D258CD0076BCE9 /* View Conferencias */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E45729D258CD0076BCE9 /* View First Date */,
+				BE95E45C29D258CD0076BCE9 /* detailConferenciaViewController.swift */,
 			);
 			path = "View Conferencias";
+			sourceTree = "<group>";
+		};
+		BE95E45729D258CD0076BCE9 /* View First Date */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E45829D258CD0076BCE9 /* secondDateViewController.swift */,
+				BE95E45929D258CD0076BCE9 /* ConferenciasFranciaTableViewCell.xib */,
+				BE95E45A29D258CD0076BCE9 /* ConferenciasFranciaTableViewCell.swift */,
+				BE95E45B29D258CD0076BCE9 /* firstDateViewController.swift */,
+			);
+			path = "View First Date";
+			sourceTree = "<group>";
+		};
+		BE95E45D29D258CD0076BCE9 /* View Chalets Francia */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E45E29D258CD0076BCE9 /* TableViewCellChalet.xib */,
+				BE95E45F29D258CD0076BCE9 /* TableViewCellChalet.swift */,
+				BE95E46029D258CD0076BCE9 /* chaletsFranciaViewController.swift */,
+			);
+			path = "View Chalets Francia";
+			sourceTree = "<group>";
+		};
+		BE95E46129D258CD0076BCE9 /* View Exposicion Estatica Francia */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E46229D258CD0076BCE9 /* expoEstaticaFranciaViewController.swift */,
+				BE95E46329D258CD0076BCE9 /* View PopUp Exposicion Estatica Francia */,
+				BE95E46529D258CE0076BCE9 /* expoEstaticaFranciaCollectionViewCell.swift */,
+				BE95E46629D258CE0076BCE9 /* expoEstaticaFranciaCollectionViewCell.xib */,
+			);
+			path = "View Exposicion Estatica Francia";
+			sourceTree = "<group>";
+		};
+		BE95E46329D258CD0076BCE9 /* View PopUp Exposicion Estatica Francia */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E46429D258CD0076BCE9 /* PopUpExpoEstaticaFranciaViewController.swift */,
+			);
+			path = "View PopUp Exposicion Estatica Francia";
 			sourceTree = "<group>";
 		};
 		BEA1679B28C0FDAD00E031B1 /* View */ = {
@@ -555,23 +637,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		BEB0D3682926A928003CAED9 /* View Chalets Francia */ = {
-			isa = PBXGroup;
-			children = (
-				BEB0D3692926A978003CAED9 /* chaletsFranciaViewController.swift */,
-				BEB0D3712926BC6C003CAED9 /* TableViewCellChalet.swift */,
-				BEB0D3722926BC6C003CAED9 /* TableViewCellChalet.xib */,
-			);
-			path = "View Chalets Francia";
-			sourceTree = "<group>";
-		};
 		BEB0D3782926D187003CAED9 /* View PopUps Configuracion */ = {
 			isa = PBXGroup;
 			children = (
-				BEB0D3792926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift */,
-				BEB0D38A2926D264003CAED9 /* PopUpContactoViewController.swift */,
-				BEB0D38F2926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift */,
-				BEB0D3942926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift */,
+				BEC1B3DF29C10F1C00AE86B0 /* PreguntasFrecuentesViewController.swift */,
+				BE88623729CA14B000BD82E1 /* TablePeguntasViewController.swift */,
+				BE88624129CA188B00BD82E1 /* PreguntasTableViewController.swift */,
+				BE88624929CA23CA00BD82E1 /* PreguntasTableViewCell.swift */,
+				BE88624A29CA23CA00BD82E1 /* PreguntasTableViewCell.xib */,
 			);
 			path = "View PopUps Configuracion";
 			sourceTree = "<group>";
@@ -579,10 +652,10 @@
 		BEB6FF0228E754DC00C047D3 /* View Francia */ = {
 			isa = PBXGroup;
 			children = (
+				BE95E45D29D258CD0076BCE9 /* View Chalets Francia */,
+				BE95E45629D258CD0076BCE9 /* View Conferencias */,
+				BE95E46129D258CD0076BCE9 /* View Exposicion Estatica Francia */,
 				BE413AA128CA28660000B418 /* franciaViewController.swift */,
-				BE66BEC5291ABEF80009BD6E /* View Conferencias */,
-				BE505A74291EC85D00BE1959 /* View Exposicion Estatica Francia */,
-				BEB0D3682926A928003CAED9 /* View Chalets Francia */,
 				BE505A7D291EC8EE00BE1959 /* View PopUps Francia */,
 			);
 			path = "View Francia";
@@ -610,8 +683,8 @@
 			isa = PBXGroup;
 			children = (
 				BED5326328F47AA10061EE58 /* MenuViewController.swift */,
-				BED5326828F486E90061EE58 /* TableViewCellMenu.swift */,
 				BED5326928F486E90061EE58 /* TableViewCellMenu.xib */,
+				BE88625329CA2BC100BD82E1 /* TableViewCellMenu.swift */,
 			);
 			path = "View Menu";
 			sourceTree = "<group>";
@@ -682,7 +755,7 @@
 				BE4F828228B7C7F2004F4DD4 /* Sources */,
 				BE4F828328B7C7F2004F4DD4 /* Frameworks */,
 				BE4F828428B7C7F2004F4DD4 /* Resources */,
-				4DBFC5209E75CCF0885CC2F6 /* [CP] Embed Pods Frameworks */,
+				4BF91099BE6FE7DEDFFE3D38 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -723,7 +796,7 @@
 				BE4F82A628B7C7F3004F4DD4 /* Sources */,
 				BE4F82A728B7C7F3004F4DD4 /* Frameworks */,
 				BE4F82A828B7C7F3004F4DD4 /* Resources */,
-				1CB9BC4E4355C5E1ED9E8AFB /* [CP] Embed Pods Frameworks */,
+				9C1B976909FFF4DA1984B08E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -788,21 +861,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE71F949290055F3005B328A /* videoEspectaculo.mp4 in Resources */,
-				BEB0D3742926BC6C003CAED9 /* TableViewCellChalet.xib in Resources */,
 				BE95F5DA28CB7E210093D0A7 /* Launch Screen.storyboard in Resources */,
 				BE1B01412941044C0004A1F6 /* ImagesProfileCollectionViewCell.xib in Resources */,
 				BED5326B28F486E90061EE58 /* TableViewCellMenu.xib in Resources */,
+				BE95E44629D249DD0076BCE9 /* mapaGeneral.pdf in Resources */,
 				BE3248122943B0E900D9EC0F /* HotelsCollectionViewCell.xib in Resources */,
 				BEFB66712965E2F400B81BD3 /* Plateia.ttf in Resources */,
 				BEB9882629A022A500BDCF24 /* Main.storyboard in Resources */,
 				BE4F829628B7C7F3004F4DD4 /* Assets.xcassets in Resources */,
-				BE1E1F4D291C164C009D981C /* ConferenciasFranciaTableViewCell.xib in Resources */,
+				BE95E47229D258CE0076BCE9 /* expoEstaticaFranciaCollectionViewCell.xib in Resources */,
+				BE95E43B29D2491F0076BCE9 /* accesosprioritarios.pdf in Resources */,
+				BE95E43329D247650076BCE9 /* puntodesanitizacion.pdf in Resources */,
 				BE680DEC291D6ECF00BB8473 /* TableViewCellMiItinerario.xib in Resources */,
-				BE782E76291588FE00B7FD70 /* puntodesanitizacion.pdf in Resources */,
+				BEAD8CD629B290330039C740 /* GoogleService-Info.plist in Resources */,
 				BED5325B28F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.xib in Resources */,
-				BE782E712915848800B7FD70 /* accesosprioritarios.pdf in Resources */,
-				BEFFA451299552D200A7A4F8 /* mapaGeneral.pdf in Resources */,
-				BE505A84291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.xib in Resources */,
+				BE95E46C29D258CE0076BCE9 /* TableViewCellChalet.xib in Resources */,
+				BE3A247629CCCDB800A38CBC /* Localizable.strings in Resources */,
+				BE88624C29CA23CA00BD82E1 /* PreguntasTableViewCell.xib in Resources */,
+				BE95E46829D258CE0076BCE9 /* ConferenciasFranciaTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -845,23 +921,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1CB9BC4E4355C5E1ED9E8AFB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3A00E8AAD90ED6801E24396B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -884,7 +943,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4DBFC5209E75CCF0885CC2F6 /* [CP] Embed Pods Frameworks */ = {
+		4BF91099BE6FE7DEDFFE3D38 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -923,6 +982,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9C1B976909FFF4DA1984B08E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appFAMEX-appFAMEXUITests/Pods-appFAMEX-appFAMEXUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -931,13 +1007,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE413ACF28CA29860000B418 /* configuracionViewController.swift in Sources */,
-				BE28433C2922966E00BEF909 /* PopUpExpoEstaticaFranciaViewController.swift in Sources */,
 				BEE18F4D296F0D47004044AE /* MenuModel.swift in Sources */,
 				BEF7DD49294CE364000FA448 /* routesViewController.swift in Sources */,
-				BEB0D37A2926D1D4003CAED9 /* PopUpPreguntasFrecuentesViewController.swift in Sources */,
-				BEB0D3902926D296003CAED9 /* PopUpSobreLaAplicacionViewController.swift in Sources */,
 				BE413ABB28CA290E0000B418 /* mumaViewController.swift in Sources */,
 				7003409328CACDE300B3AA41 /* extension.swift in Sources */,
+				BEC1B3E029C10F1C00AE86B0 /* PreguntasFrecuentesViewController.swift in Sources */,
+				BE3A247F29CCD38600A38CBC /* DesarrolladoresViewController.swift in Sources */,
 				BE2D6C3B292EA21900F215FC /* chaletsMexicoViewController.swift in Sources */,
 				BE4585D7293E5D9000798F77 /* DateDecoder.swift in Sources */,
 				BE14376B296C6FB5006C102B /* FAMEXText.swift in Sources */,
@@ -945,43 +1020,49 @@
 				BEF1FE822937C77F000FF155 /* NetworkingProvider.swift in Sources */,
 				BED5325A28F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.swift in Sources */,
 				7095C6ED28C85335008088C2 /* inicioViewController.swift in Sources */,
+				BE95E46E29D258CE0076BCE9 /* chaletsFranciaViewController.swift in Sources */,
 				BE31968C28EC838200C8A8B8 /* PopUpExitoViewController.swift in Sources */,
-				BEB0D36A2926A978003CAED9 /* chaletsFranciaViewController.swift in Sources */,
 				BE413AD428CA2AEB0000B418 /* protocoloMenu.swift in Sources */,
 				BE31968228EC834C00C8A8B8 /* PopUpLideresViewController.swift in Sources */,
 				BE680DEB291D6ECF00BB8473 /* TableViewCellMiItinerario.swift in Sources */,
+				BE95E46F29D258CE0076BCE9 /* expoEstaticaFranciaViewController.swift in Sources */,
+				BE95E46729D258CE0076BCE9 /* secondDateViewController.swift in Sources */,
+				BE88629429CA6E8900BD82E1 /* ContactoViewController.swift in Sources */,
+				BE95E46B29D258CE0076BCE9 /* detailConferenciaViewController.swift in Sources */,
 				BE870F972989C174007F0E99 /* profileViewController.swift in Sources */,
+				BE88623929CA14B000BD82E1 /* TablePeguntasViewController.swift in Sources */,
 				BE413AC028CA292E0000B418 /* accesosViewController.swift in Sources */,
+				BE95E46D29D258CE0076BCE9 /* TableViewCellChalet.swift in Sources */,
 				BE95F5E328CB7EA20093D0A7 /* appFAMEX.xcdatamodeld in Sources */,
 				BE3248112943B0E900D9EC0F /* HotelsCollectionViewCell.swift in Sources */,
+				BE88624B29CA23CA00BD82E1 /* PreguntasTableViewCell.swift in Sources */,
 				BE3248072943AEA000D9EC0F /* hotelsViewController.swift in Sources */,
 				BE413AB628CA28FA0000B418 /* espectaculoViewController.swift in Sources */,
 				BE4F828A28B7C7F2004F4DD4 /* AppDelegate.swift in Sources */,
 				BEF1FE892937D41E000FF155 /* user.swift in Sources */,
-				BEB0D38B2926D264003CAED9 /* PopUpContactoViewController.swift in Sources */,
 				BE31968728EC836600C8A8B8 /* PopUpIDViewController.swift in Sources */,
 				BE2D6C35292E937B00F215FC /* expoEstaticaMexicoViewController.swift in Sources */,
+				BE7BB61129BA37E200175CAF /* NewUser.swift in Sources */,
 				BE4F828C28B7C7F2004F4DD4 /* SceneDelegate.swift in Sources */,
-				BEB0D3732926BC6C003CAED9 /* TableViewCellChalet.swift in Sources */,
 				7095C6EF28C86282008088C2 /* famexViewController.swift in Sources */,
-				BE505A6D291EBD1F00BE1959 /* secondDateViewController.swift in Sources */,
-				BE505A83291ED9E100BE1959 /* expoEstaticaFranciaCollectionViewCell.swift in Sources */,
+				BE95E47129D258CE0076BCE9 /* expoEstaticaFranciaCollectionViewCell.swift in Sources */,
+				BE88624229CA188B00BD82E1 /* PreguntasTableViewController.swift in Sources */,
 				BE413ACA28CA29690000B418 /* prefamexViewController.swift in Sources */,
-				BEB0D3952926D2AD003CAED9 /* PoppTerminosYCondicionesViewController.swift in Sources */,
+				BE95E46929D258CE0076BCE9 /* ConferenciasFranciaTableViewCell.swift in Sources */,
+				BE95E47029D258CE0076BCE9 /* PopUpExpoEstaticaFranciaViewController.swift in Sources */,
+				BE88628029CA52D500BD82E1 /* TerminosYCondicionesViewController.swift in Sources */,
+				BE88628E29CA6C7200BD82E1 /* SobreLaAplicacionViewController.swift in Sources */,
 				BED5326428F47AA10061EE58 /* MenuViewController.swift in Sources */,
-				BE505A79291EC8DC00BE1959 /* expoEstaticaFranciaViewController.swift in Sources */,
+				BE95E46A29D258CE0076BCE9 /* firstDateViewController.swift in Sources */,
 				BEC0F802299AD484002582D4 /* BienvenidaViewController.swift in Sources */,
-				BE2D6C46292EA9EA00F215FC /* firstDateViewController.swift in Sources */,
 				BE870FB32989CAB0007F0E99 /* franciaViewController.swift in Sources */,
 				BE413AB128CA28BE0000B418 /* restaurantesViewController.swift in Sources */,
 				7037A25B28BD9D5200DCB43C /* SignUpViewController.swift in Sources */,
 				BE413AAC28CA28A00000B418 /* itinerarioViewController.swift in Sources */,
 				BE1B01402941044C0004A1F6 /* ImagesProfileCollectionViewCell.swift in Sources */,
-				BED5326A28F486E90061EE58 /* TableViewCellMenu.swift in Sources */,
 				BE413AC528CA294D0000B418 /* sanitizacionViewController.swift in Sources */,
 				BEB6FF0428E7552600C047D3 /* PopUpPuestosViewController.swift in Sources */,
-				BE1E1F4C291C164C009D981C /* ConferenciasFranciaTableViewCell.swift in Sources */,
-				BE1E1F52291C361C009D981C /* detailConferenciaViewController.swift in Sources */,
+				BE88625429CA2BC100BD82E1 /* TableViewCellMenu.swift in Sources */,
 				BE413AA728CA28840000B418 /* eventosViewController.swift in Sources */,
 				BE5FBD7628EF2808005F812A /* MapaGeneralViewController.swift in Sources */,
 				BE38A02329311DDA0078514B /* popUpAddMiItinerarioViewController.swift in Sources */,

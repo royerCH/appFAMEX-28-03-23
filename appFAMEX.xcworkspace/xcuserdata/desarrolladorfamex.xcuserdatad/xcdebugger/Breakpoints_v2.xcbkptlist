@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E7AC3E42-2E81-4C4E-90ED-8D9B8E7B7827"
+            uuid = "4493AF33-E555-46C0-8647-8F0AB99D18BC"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "appFAMEX/Controller/View Configuracion/configuracionViewController.swift"
+            filePath = "appFAMEX/Controller/configuracionViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "customLabelsAndButtons()"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "btnActionNotificaciones(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

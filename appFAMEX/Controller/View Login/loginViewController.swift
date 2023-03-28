@@ -38,12 +38,9 @@ class loginViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     var tipoIdioma: Int?
- 
-    
+    var etiqueta: String?
 
-    
-    
-    
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -135,7 +132,6 @@ class loginViewController: UIViewController, UITextFieldDelegate {
         NetworkingProvider.shared.getUser(id: 1830) { (user) in
             // Peticion correcta
             self.activityIndicator.stopAnimating()
-            
             //self.passCredentials(credential: "Hola")
             
             self.performSegue(withIdentifier: "logInSegue", sender: self)
@@ -145,7 +141,7 @@ class loginViewController: UIViewController, UITextFieldDelegate {
             self.activityIndicator.stopAnimating()
         }
         
-        print("Hello Login")
+            
      }
     
             // Registrarse
@@ -158,12 +154,17 @@ class loginViewController: UIViewController, UITextFieldDelegate {
                         // - Sender, objeto que llama
         performSegue(withIdentifier: "signUpSegue", sender: self)
         
+        
+        
+        
     }
     
     
      @IBAction func btnGuessUsrAction(_ sender: Any) {
          btnGuessUsr.bounce()
+       
         tipoIdioma = 1
+        etiqueta = "México"
          performSegue(withIdentifier: "bienvenida", sender: self)
         print("btnGuessUSR funcionando")
      }
@@ -173,8 +174,11 @@ class loginViewController: UIViewController, UITextFieldDelegate {
         if let screenView = segue.destination as?
             BienvenidaViewController{
             screenView.tipoIdioma = self.tipoIdioma
-        }
+            screenView.etiqueta = self.etiqueta
+      }
     }
+    
+    
 
     
 }
