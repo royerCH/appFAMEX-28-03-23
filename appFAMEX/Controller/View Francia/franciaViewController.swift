@@ -18,9 +18,9 @@ class franciaViewController: UIViewController, protocoloMenu {
     
     
         // Buttons
-    @IBOutlet weak var btnConferencias: UIButton!
+    /*@IBOutlet weak var btnConferencias: UIButton!
     @IBOutlet weak var btnExpoEstatica: UIButton!
-    @IBOutlet weak var btnChalets: UIButton!
+    @IBOutlet weak var btnChalets: UIButton!*/
     @IBOutlet weak var btnPuestosTrabajo: UIButton!
     @IBOutlet weak var btnLideresFrancia: UIButton!
     @IBOutlet weak var btnID: UIButton!
@@ -66,7 +66,7 @@ class franciaViewController: UIViewController, protocoloMenu {
     func customViews() {
         
         // Views
-        viewMainButtons.backgroundColor = .clear
+    //    viewMainButtons.backgroundColor = .clear
         
         // Buttons
 
@@ -130,7 +130,7 @@ class franciaViewController: UIViewController, protocoloMenu {
     
     // ACTIONS
     
-    @IBAction func btnActionConferenciasFrancia(_ sender: Any) {
+   /* @IBAction func btnActionConferenciasFrancia(_ sender: Any) {
         performSegue(withIdentifier: "conferenciasFranciaSegue", sender: self)
     }
     
@@ -141,7 +141,7 @@ class franciaViewController: UIViewController, protocoloMenu {
     @IBAction func btnActionChaletsFrancia(_ sender: Any) {
         performSegue(withIdentifier: "chaletsFranciaSegue", sender: self)
     }
-    
+    */
     
     @objc func btnMenuHamburguesa() {
         if menu == false {

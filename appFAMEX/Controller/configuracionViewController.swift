@@ -175,16 +175,21 @@ class configuracionViewController: UIViewController, protocoloMenu {
     // Accion para el boton Contacto *s/f
    @IBAction func btnActionContacto(_ sender: Any)
     {
+        performSegue(withIdentifier: "contactoSegue", sender: self)
+
     print("botón contacto")
    }
     // Accion para el boton Sobre La Aplicacion *s/f
    @IBAction func btnActionSobreLaAplicacion(_ sender: Any)
     {
+        performSegue(withIdentifier: "sobreappSegue", sender: self)
+    
     print("botón sobre la app")
    }
     // Accion para el boton Terminos Y Condiciones *s/f
    @IBAction func btnActionTerminosYCondiciones(_ sender: Any)
     {
+        performSegue(withIdentifier: "terminosSegue", sender: self)
     print("botón términos y condiciones ")
    }
     

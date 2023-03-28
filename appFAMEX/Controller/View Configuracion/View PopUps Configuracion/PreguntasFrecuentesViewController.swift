@@ -7,9 +7,12 @@
 
 import UIKit
 
-class PreguntasFrecuentesViewController: UIViewController {
+class PreguntasFrecuentesViewController:  UIViewController{
+
     
 
+    
+//    , UITableViewDelegate, UITableViewDataSource
     @IBOutlet weak var btnCerrar: UIButton!
     @IBOutlet weak var lblPreguntas: UILabel!
     @IBOutlet weak var viewButtons: UIView!
@@ -22,59 +25,60 @@ class PreguntasFrecuentesViewController: UIViewController {
     
     @IBOutlet weak var btnRutas: UIButton!
     @IBOutlet weak var lblRutas: UILabel!
-    @IBOutlet weak var textFieldGenerales: UIView!
+ 
+
+    @IBOutlet weak var tableViewChaletFrancia: UITableView!
+    @IBOutlet weak var viewContentHeader: UIView!
     
-    @IBOutlet  var arrayButton: [UIButton]!
+    
+//    private let tableView: UITableView = {
+//        let tableView = UITableView()
+//        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+//
+//
+//        return tableView
+//
+//    }()
+//
+  
     
     
-    @IBOutlet weak var viewTxt: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//
+//
+//
+//        view.addSubview(tableView)
+//        tableView.delegate = self
+//        tableView.dataSource = self
+//        tableView.frame = view.bounds
+        
         
         
         btnCerrar.setTitle("Cerrar", for: .normal)
         
-        viewButtons.backgroundColor = .none
-        
-        
-        
+      //  viewButtons.backgroundColor = .none
         //------------Labels/
-        lblPreguntas.text = "PREGUNTAS\nFRECUENTES"
+        
+        lblPreguntas.text =  "PREGUNTAS\nFRECUENTES"
         lblPreguntas.numberOfLines = 2
-        lblPreguntas.contentMode = .center
-        lblPreguntas.textColor = .white
-        lblPreguntas.font = .boldSystemFont(ofSize: 20)
         lblPreguntas.font = UIFont(name: "Plateia", size: 20)
-        
-        lblGenerales.text = "GENERALES"
-        lblGenerales.contentMode = .center
-        lblGenerales.font = UIFont(name: "Plateia", size: 20)
-        lblGenerales.textColor = .white
-        
-        lblEventos.text = "EVENTOS"
-        lblEventos.contentMode = .center
-        lblEventos.font = UIFont(name: "Plateia", size: 20)
-        lblEventos.textColor = .white
-        
-        
-        lblRutas.text = "RUTAS"
-        lblRutas.contentMode = .center
-        lblRutas.font = UIFont(name: "Plateia", size: 20)
-        lblRutas.textColor = .white
+        lblPreguntas.textColor = .white
         
         //----------------Buttons
-        generales.setImage(UIImage(named: "imgBarraBluePopUp"), for: .normal)
-        btnEvento.setImage(UIImage(named: "imgBarraBluePopUp"), for: .normal)
-        btnRutas.setImage(UIImage(named: "imgBarraBluePopUp"), for: .normal)
+//        generales.setImage(UIImage(named: "imgBarraBluePopUp"), for: .normal)
+//        btnEvento.setImage(UIImage(named: "imgBarraBluePopUp"), for: .normal)
+//        btnRutas.setImage(UIImage(named: "imgBarraBluePopUp"), for: .normal)
         
+        //----------------------Views
+        viewContentHeader.backgroundColor = .none
+        viewButtons.backgroundColor = .none
         
-        
-        //---------------------Activate actions
-        
-        btnGenerales((Any).self)
            
     }
+    
+//    
     
 
     @IBAction func btnCerrar(_ sender: Any) {
@@ -84,35 +88,14 @@ class PreguntasFrecuentesViewController: UIViewController {
         print("botón Generales")
     }
     
-    
-   
-    func showSelectors() {
-        arrayButton.forEach{
-            button in
-            button.isHidden = !button.isHidden
-            self.view.layoutIfNeeded()
-        }
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
     }
-    
-    @IBAction func btnGenerales(_ sender: Any) {
-        
-        
-        if generales.isHidden == false{
-            lblPreguntas.backgroundColor = .red
-        }
-        
-        
-        
-        
-        
-            
-       
-    }
-    
-    
-    
-    
-    
-    
+    */
     
 }
