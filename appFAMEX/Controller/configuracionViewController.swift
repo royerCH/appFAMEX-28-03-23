@@ -87,12 +87,12 @@ class configuracionViewController: UIViewController, protocoloMenu {
               
        // BOTONES
        // Boton idioma
-       btnIdioma.backgroundColor = .clear
-       btnIdioma.setTitleColor(.white, for: .normal)
+//       btnIdioma.backgroundColor = .clear
+  //     btnIdioma.setTitleColor(.white, for: .normal)
         
        // Boton Notificaciones
-       btnNotificaciones.backgroundColor = .clear
-       btnNotificaciones.setTitleColor(.white, for: .normal)
+    //   btnNotificaciones.backgroundColor = .clear
+      // btnNotificaciones.setTitleColor(.white, for: .normal)
 
        // Boton preguntas frecuentes
        btnPreguntasFrecuentes.backgroundColor = .clear
@@ -126,7 +126,7 @@ class configuracionViewController: UIViewController, protocoloMenu {
     }
     
     func EstilosCajas () {
-        viewIdiNoti.layer.cornerRadius = 10
+//        viewIdiNoti.layer.cornerRadius = 10
         viewPreRepCon.layer.cornerRadius = 10
         viewSobTer.layer.cornerRadius = 10
     }
@@ -144,7 +144,7 @@ class configuracionViewController: UIViewController, protocoloMenu {
     
     
     // Accion para el boton Idioma *a`n sin/funcionamiento
-   @IBAction func btnActionIdioma(_ sender: Any)
+  /* @IBAction func btnActionIdioma(_ sender: Any)
     {
     
    print("Soy botón idioma ")
@@ -155,7 +155,7 @@ class configuracionViewController: UIViewController, protocoloMenu {
    @IBAction func btnActionNotificaciones(_ sender: Any)
     {
     print("botón notificaciones")
-   }
+   }*/
     // Accion para el boton Preguntas Frecuentes *s/f
    @IBAction func btnActionPreguntasFrecuentes(_ sender: Any)
     {
@@ -175,16 +175,21 @@ class configuracionViewController: UIViewController, protocoloMenu {
     // Accion para el boton Contacto *s/f
    @IBAction func btnActionContacto(_ sender: Any)
     {
+        performSegue(withIdentifier: "contactoSegue", sender: self)
+
     print("botón contacto")
    }
     // Accion para el boton Sobre La Aplicacion *s/f
    @IBAction func btnActionSobreLaAplicacion(_ sender: Any)
     {
+        performSegue(withIdentifier: "sobreappSegue", sender: self)
+    
     print("botón sobre la app")
    }
     // Accion para el boton Terminos Y Condiciones *s/f
    @IBAction func btnActionTerminosYCondiciones(_ sender: Any)
     {
+        performSegue(withIdentifier: "terminosSegue", sender: self)
     print("botón términos y condiciones ")
    }
     

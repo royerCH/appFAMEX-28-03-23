@@ -42,7 +42,7 @@ class MenuViewController: UIViewController {
         
         structMenu(camptitle: "Inicio",         // Nombre de la opcion
                    campsegue: "InicioSegue",    // Nombre del segue
-                   campimage: "imgIconInicio"), // Nombre del icono de la opion
+                   campimage: "imgIconInicio"), // Nombre del icono de la opcion
         structMenu(camptitle: "FAMEX",
                    campsegue: "FAMEXSegue",
                    campimage: "imgIconFAMEX"),
@@ -52,9 +52,9 @@ class MenuViewController: UIViewController {
         structMenu(camptitle: "Evento",
                    campsegue: "EventoSegue",
                    campimage: "imgIconEvento"),
-        structMenu(camptitle: "Mi Itinerario",
+    /*    structMenu(camptitle: "Mi Itinerario",
                    campsegue: "ItinerarioSegue",
-                   campimage: "imgIconItinerario"),
+                   campimage: "imgIconItinerario"), */
         structMenu(camptitle: "Restaurantes",
                    campsegue: "RestaurantesSegue",
                    campimage: "imgIconRestaurantes"),
@@ -78,7 +78,7 @@ class MenuViewController: UIViewController {
                    campimage: "imgIconConfig"),
         structMenu(camptitle: "Cerrar Sesión",
                    campsegue: "logInSegue",
-                   campimage: "imgCerrarSesion")//pendiente con esta imágen
+                   campimage: "imgCerrarSesion")
         
     
     ]
@@ -95,7 +95,7 @@ class MenuViewController: UIViewController {
  
     }
     
-    func customView() {
+  func customView() {
         
         tableViewMenu.backgroundColor = .clear
         viewTicket.backgroundColor = .clear
@@ -103,7 +103,7 @@ class MenuViewController: UIViewController {
         
         imgProfile.round()
         
-        lblPilot.text = "Piloto:"
+        /*lblPilot.text = "Piloto:"
         lblPilot.font = UIFont(name: "Arial", size: 15)
         lblPilot.textColor = .white
         newUser1 = NewUser()
@@ -119,7 +119,7 @@ class MenuViewController: UIViewController {
         btnEditProfile.titleLabel?.textAlignment = .left
         btnEditProfile.titleLabel?.font = UIFont.boldSystemFont(ofSize: 15)
         btnEditProfile.titleLabel?.textColor = #colorLiteral(red: 0, green: 0.5898008943, blue: 1, alpha: 1)
-        btnEditProfile.titleLabel?.adjustsFontSizeToFitWidth = true
+        btnEditProfile.titleLabel?.adjustsFontSizeToFitWidth = true*/
         
     }
     
@@ -136,16 +136,16 @@ extension MenuViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return optionsMenu.count    // Numero de opciones del menu
     }
-    /*
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellOptionMenu", for: indexPath) as? TableViewCellMenu
-        
-        cell?.lblOptionMenu.text = optionsMenu[indexPath.row].camptitle
-        cell?.imgIconMenu.image = UIImage(named: optionsMenu[indexPath.row].campimage)
-        
-        return cell!
-        
-    }*/
+//
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "cellOptionMenu", for: indexPath) as? TableViewCellMenu
+//
+//        cell?.lblOptionMenu.text = optionsMenu[indexPath.row].camptitle
+//        cell?.imgIconMenu.image = UIImage(named: optionsMenu[indexPath.row].campimage)
+//
+//        return cell!
+//
+//    }
     
     // Metodo que retorna todas las celdas. *Llena el table view (Opciones del menu)
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -187,30 +187,30 @@ extension MenuViewController: UITableViewDataSource, UITableViewDelegate {
             case [0, 3]:
                 performSegue(withIdentifier: "4", sender: self)
                 
-            case [0, 4]:
-                performSegue(withIdentifier: "5", sender: self)
+          /*  case [0, 4]:
+                performSegue(withIdentifier: "5", sender: self) */
                 
-            case [0, 5]:
+            case [0, 4]:
                 performSegue(withIdentifier: "6", sender: self)
                 
-            case [0, 6]:
+            case [0, 5]:
                 performSegue(withIdentifier: "7", sender: self)
                 
-            case [0, 7]:
+            case [0, 6]:
                 performSegue(withIdentifier: "8", sender: self)
             
-            case [0, 8]:
+            case [0, 7]:
                 performSegue(withIdentifier: "9", sender: self)
             
-            case [0, 9]:
+            case [0, 8]:
                 performSegue(withIdentifier: "10", sender: self)
                 
-            case [0, 10]:
+            case [0, 9]:
                 performSegue(withIdentifier: "11", sender: self)
                 
-            case [0, 11]:
+            case [0, 10]:
                 performSegue(withIdentifier: "12", sender: self)
-        case [0, 12]:
+        case [0, 11]:
             performSegue(withIdentifier: "13", sender: self)
                 
             default:
