@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+
+class car {
+    var numllantas = 2
+}
