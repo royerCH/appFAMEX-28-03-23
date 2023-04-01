@@ -24,6 +24,12 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var lblPilot: UILabel!
     @IBOutlet weak var lblNamePilot: UILabel!
     
+    
+    
+    @IBOutlet weak var irSitio: UIButton!
+    
+    
+    
     //MARK: - Properties
     //static let userName = MenuViewController ()
     //var newUser1: String?
@@ -67,7 +73,7 @@ class MenuViewController: UIViewController {
         structMenu(camptitle: "Accesos P.C.D",
                    campsegue: "AccesSegue",
                    campimage: "imgIconAcces"),
-        structMenu(camptitle: "Sanitizaciòn",
+        structMenu(camptitle: "Sanitización",
                    campsegue: "SanitizacionSegue",
                    campimage: "imgIconSanitizacion"),
         structMenu(camptitle: "PRE-FAMEX",
@@ -79,12 +85,14 @@ class MenuViewController: UIViewController {
         structMenu(camptitle: "Cerrar Sesión",
                    campsegue: "logInSegue",
                    campimage: "imgCerrarSesion")
-        
     
     ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        irSitio.backgroundColor = .clear
+      
 
         tableViewMenu.dataSource = self     // Se delega en la misma vista
         tableViewMenu.delegate = self
@@ -95,7 +103,17 @@ class MenuViewController: UIViewController {
  
     }
     
-  func customView() {
+    @IBAction func goSiteTicket(_ sender: Any) {
+        if let url = URL(string: "https://fullpass-ticket.gestiondeaccesos.com/index.php?r=venta/boletos&id=4&eventonombre=FAMEX2023") {
+              if #available(iOS 10, *){
+                  UIApplication.shared.open(url)
+              }else{
+                  UIApplication.shared.openURL(url)
+              }
+          }
+        print("😀😀😀😀😀")
+    }
+    func customView() {
         
         tableViewMenu.backgroundColor = .clear
         viewTicket.backgroundColor = .clear
@@ -217,6 +235,12 @@ extension MenuViewController: UITableViewDataSource, UITableViewDelegate {
                 print("Nada")
         }
     }
+    
+   
+    
+   
+    
+    
     
     
     

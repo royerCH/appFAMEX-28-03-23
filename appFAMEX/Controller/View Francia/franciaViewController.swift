@@ -32,7 +32,7 @@ class franciaViewController: UIViewController, protocoloMenu {
     var viewOptionSelect: CGAffineTransform = CGAffineTransform()
     
    
-
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,7 +71,7 @@ class franciaViewController: UIViewController, protocoloMenu {
         // Buttons
 
         
-            // Clouser para subrallar
+            // Clouser para subrayar
         let yourAttributes: [NSAttributedString.Key: Any] = [
               .font: UIFont.systemFont(ofSize: 14),
               .foregroundColor: UIColor.white,

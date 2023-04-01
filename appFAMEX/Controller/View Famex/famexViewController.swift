@@ -58,7 +58,41 @@ class famexViewController: UIViewController, protocoloMenu, UITableViewDelegate 
     @IBOutlet weak var lblEdiPasadas: UILabel!
     
     
-        // Buttons
+    
+    
+    @IBOutlet weak var lblDosQuince: UILabel!
+    @IBOutlet weak var lblDosNueve: UILabel!
+    @IBOutlet weak var lblDosCuatro: UILabel!
+    
+    //Nuevos Lbl
+    @IBOutlet weak var lblExpositores: UILabel!
+    @IBOutlet weak var lblAeronaves: UILabel!
+    @IBOutlet weak var lblB2BMeetings: UILabel!
+    @IBOutlet weak var lblVisitantes: UILabel!
+    @IBOutlet weak var lblPaises: UILabel!
+    // Numbers labels
+    
+    @IBOutlet weak var lbl1: UILabel!
+    @IBOutlet weak var lbl2: UILabel!
+    @IBOutlet weak var lbl3: UILabel!
+    @IBOutlet weak var lbl4: UILabel!
+    @IBOutlet weak var lbl5: UILabel!
+    @IBOutlet weak var lbl6: UILabel!
+    @IBOutlet weak var lbl7: UILabel!
+    @IBOutlet weak var lbl8: UILabel!
+    @IBOutlet weak var lbl9: UILabel!
+    @IBOutlet weak var lbl10: UILabel!
+    @IBOutlet weak var lblMejoras: UILabel!
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    // Buttons
     @IBOutlet weak var btnEdiPasadas: UIButton!
     
     
@@ -90,6 +124,91 @@ class famexViewController: UIViewController, protocoloMenu, UITableViewDelegate 
         customViews()
         customNavigationBar()
         addchildController()
+        
+        lblDosQuince.text = "2015"
+        lblDosQuince.font = UIFont(name: "Plateia", size: 18)
+        lblDosQuince.textColor = UIColor.white
+        lblDosNueve.text = "2019"
+        lblDosNueve.font = UIFont(name: "Plateia", size: 18)
+        lblDosNueve.textColor = UIColor.white
+        lblDosCuatro.text = "2023"
+        lblDosCuatro.font = UIFont(name: "Plateia", size: 18)
+        lblDosCuatro.textColor = UIColor.white
+       
+        // nuevos
+        lblExpositores.text = "Expositores"
+        lblExpositores.textColor = UIColor.white
+        lblExpositores.font = UIFont(name: "Plateia", size:12)
+       
+        lblAeronaves.text = "Aeronaves"
+        lblAeronaves.textColor = UIColor.white
+        lblAeronaves.font = UIFont(name: "Plateia", size:12)
+       
+        lblB2BMeetings.text = " B2B Meetings"
+        lblB2BMeetings.textColor = UIColor.white
+        lblB2BMeetings.font = UIFont(name: "Plateia", size:12)
+        
+        lblVisitantes.text = "Visitantes"
+        lblVisitantes.textColor = UIColor.white
+        lblVisitantes.font = UIFont(name: "Plateia", size:12)
+        
+        lblPaises.text = "Países"
+        lblPaises.textColor = UIColor.white
+        lblPaises.font = UIFont(name: "Plateia", size:12)
+        
+        //Bloque números
+        
+        lbl1.text = "240"
+        lbl1.textColor = UIColor.white
+        lbl1.font = UIFont(name: "Plateia", size:12)
+        
+        lbl2.text = "505"
+        lbl2.textColor = UIColor.white
+        lbl2.font = UIFont(name: "Plateia", size:12)
+        
+        lbl3.text = "32"
+        lbl3.textColor = UIColor.white
+        lbl3.font = UIFont(name: "Plateia", size:12)
+        
+        lbl4.text = "48"
+        lbl4.textColor = UIColor.white
+        lbl4.font = UIFont(name: "Plateia", size:12)
+        
+        lbl5.text = "3500"
+        lbl5.textColor = UIColor.white
+        lbl5.font = UIFont(name: "Plateia", size:12)
+        
+        lbl6.text = "4500"
+        lbl6.textColor = UIColor.white
+        lbl6.font = UIFont(name: "Plateia", size:12)
+        
+        lbl7.text = "32000"
+        lbl7.textColor = UIColor.white
+        lbl7.font = UIFont(name: "Plateia", size:12)
+        
+        lbl8.text = "45000"
+        lbl8.textColor = UIColor.white
+        lbl8.font = UIFont(name: "Plateia", size:12)
+        
+        lbl9.text = "16"
+        lbl9.textColor = UIColor.white
+        lbl9.font = UIFont(name: "Plateia", size:12)
+        
+        lbl10.text = "35"
+        lbl10.textColor = UIColor.white
+        lbl10.font = UIFont(name: "Plateia", size:12)
+        
+        lblMejoras.text = "M\nE\nJ\nO\nR\nA\nN\nD\nO"
+        lblMejoras.numberOfLines = 0
+        lblMejoras.textColor = UIColor.white
+        lblMejoras.font = UIFont(name: "Plateia", size: 25)
+        lblMejoras.sizeToFit()
+        
+        
+    
+        //Un éxito \ncomercial
+    
+    
     }
     
     //-----------------------METHODS-----------------------
@@ -208,6 +327,8 @@ class famexViewController: UIViewController, protocoloMenu, UITableViewDelegate 
     }
     
   
+    
+    
     
     // Metodo para personalizar el Navigation bar
     func customNavigationBar() {

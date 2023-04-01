@@ -431,7 +431,6 @@
 				BE88629229CA6E5E00BD82E1 /* View Contacto */,
 				BE88628429CA6BC300BD82E1 /* View Sobre la Aplicación */,
 				BE88627E29CA51F500BD82E1 /* View Terminos y Condiciones */,
-				BE88627D29CA4DB400BD82E1 /* View reportar un problema */,
 				BEB0D3782926D187003CAED9 /* View PopUps Configuracion */,
 			);
 			path = "View Configuracion";
@@ -527,13 +526,6 @@
 				BE2D6C30292E930F00F215FC /* View Exposicion Estatica Mexico */,
 			);
 			path = "View Eventos";
-			sourceTree = "<group>";
-		};
-		BE88627D29CA4DB400BD82E1 /* View reportar un problema */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "View reportar un problema";
 			sourceTree = "<group>";
 		};
 		BE88627E29CA51F500BD82E1 /* View Terminos y Condiciones */ = {
