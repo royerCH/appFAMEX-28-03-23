@@ -13,6 +13,7 @@
 		7037A25B28BD9D5200DCB43C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7037A25A28BD9D5200DCB43C /* SignUpViewController.swift */; };
 		7095C6ED28C85335008088C2 /* inicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7095C6EC28C85335008088C2 /* inicioViewController.swift */; };
 		7095C6EF28C86282008088C2 /* famexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7095C6EE28C86282008088C2 /* famexViewController.swift */; };
+		BE00918C29DB918500447C15 /* qwertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE00918B29DB918500447C15 /* qwertyViewController.swift */; };
 		BE14376B296C6FB5006C102B /* FAMEXText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14376A296C6FB5006C102B /* FAMEXText.swift */; };
 		BE1B01402941044C0004A1F6 /* ImagesProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1B013E2941044C0004A1F6 /* ImagesProfileCollectionViewCell.swift */; };
 		BE1B01412941044C0004A1F6 /* ImagesProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1B013F2941044C0004A1F6 /* ImagesProfileCollectionViewCell.xib */; };
@@ -121,6 +122,7 @@
 		7EEAAB3725BF49DA7EF1F61F /* Pods-appFAMEX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appFAMEX.debug.xcconfig"; path = "Target Support Files/Pods-appFAMEX/Pods-appFAMEX.debug.xcconfig"; sourceTree = "<group>"; };
 		889E182DA9A0EB9B1F53A9C2 /* Pods_appFAMEX_appFAMEXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appFAMEX_appFAMEXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E0C9163E03F88C2E4E0B20 /* Pods-appFAMEXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appFAMEXTests.release.xcconfig"; path = "Target Support Files/Pods-appFAMEXTests/Pods-appFAMEXTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE00918B29DB918500447C15 /* qwertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qwertyViewController.swift; sourceTree = "<group>"; };
 		BE14376A296C6FB5006C102B /* FAMEXText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAMEXText.swift; sourceTree = "<group>"; };
 		BE1B01362940FDCD0004A1F6 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		BE1B013E2941044C0004A1F6 /* ImagesProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesProfileCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -654,6 +656,7 @@
 			isa = PBXGroup;
 			children = (
 				BEC0F801299AD484002582D4 /* BienvenidaViewController.swift */,
+				BE00918B29DB918500447C15 /* qwertyViewController.swift */,
 			);
 			path = Bienvenida;
 			sourceTree = "<group>";
@@ -1019,6 +1022,7 @@
 				BE88629429CA6E8900BD82E1 /* ContactoViewController.swift in Sources */,
 				BE95E46B29D258CE0076BCE9 /* detailConferenciaViewController.swift in Sources */,
 				BE870F972989C174007F0E99 /* profileViewController.swift in Sources */,
+				BE00918C29DB918500447C15 /* qwertyViewController.swift in Sources */,
 				BE413AC028CA292E0000B418 /* accesosViewController.swift in Sources */,
 				BE95E46D29D258CE0076BCE9 /* TableViewCellChalet.swift in Sources */,
 				BE95F5E328CB7EA20093D0A7 /* appFAMEX.xcdatamodeld in Sources */,
