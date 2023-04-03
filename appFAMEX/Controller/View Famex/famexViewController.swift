@@ -198,7 +198,7 @@ class famexViewController: UIViewController, protocoloMenu, UITableViewDelegate 
         lbl10.textColor = UIColor.white
         lbl10.font = UIFont(name: "Plateia", size:12)
         
-        lblMejoras.text = "M\nE\nJ\nO\nR\nA\nN\nD\nO"
+        lblMejoras.text = "M\n\n\nE\n\n\nJ\n\n\nO\n\n\nR\n\n\nA\n\n\nN\n\n\nD\n\n\nO"
         lblMejoras.numberOfLines = 0
         lblMejoras.textColor = UIColor.white
         lblMejoras.font = UIFont(name: "Plateia", size: 25)
