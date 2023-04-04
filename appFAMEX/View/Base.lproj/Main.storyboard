@@ -2011,7 +2011,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g5E-8c-Jgg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4793" y="-1842"/>
+            <point key="canvasLocation" x="6328" y="-1775"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BYu-vc-JJ9">
+            <objects>
+                <viewController id="yWL-r6-suk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="baB-I6-Hll">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="NJr-fu-U7z"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TWu-gO-ONU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="977-eU-rD1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7755" y="-1919"/>
         </scene>
         <!--Pop Up Add Mi Itinerario View Controller-->
         <scene sceneID="TjT-q3-Pt1">
@@ -2359,7 +2375,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dzp-2r-Ad7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7341" y="-2180"/>
+            <point key="canvasLocation" x="9160.8695652173919" y="-2180.3571428571427"/>
         </scene>
         <!--Pop Up Expo Estatica Francia View Controller-->
         <scene sceneID="5jz-HI-MaP">
@@ -3019,7 +3035,6 @@
                                                                 <state key="normal" title="Button" backgroundImage="imgBtnBarraBlanca"/>
                                                                 <connections>
                                                                     <action selector="btnConferencias:" destination="lH6-ea-CZ6" eventType="touchUpInside" id="dfH-6S-mS7"/>
-                                                                    <segue destination="VGA-tc-SxQ" kind="show" identifier="eventoConferenciasSegue" id="LbE-AS-m29"/>
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQE-YU-u04">
@@ -3125,11 +3140,12 @@
                         <segue destination="NRI-PV-PCp" kind="show" identifier="mapaGeneralSegue" id="pSK-Xd-zI7"/>
                         <segue destination="Ltn-wd-6W4" kind="show" identifier="expoEstaticaMexSegue" id="QbH-ok-yy0"/>
                         <segue destination="ty6-qn-V2d" kind="show" identifier="chaletsMexSegue" id="3QA-3E-yxm"/>
+                        <segue destination="VGA-tc-SxQ" kind="show" identifier="eventoConferenciasSegue" id="4Ek-h2-Jg9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23e-dN-Bt2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3465" y="-1841"/>
+            <point key="canvasLocation" x="4974" y="-1775"/>
         </scene>
         <!--Mapa General View Controller-->
         <scene sceneID="GkT-F1-6Yn">
@@ -3153,13 +3169,14 @@
                             <constraint firstItem="xu4-ee-5ck" firstAttribute="trailing" secondItem="oBe-7t-lIF" secondAttribute="trailing" id="gyt-KA-PNK"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="IVy-6o-89X"/>
                     <connections>
                         <outlet property="viewMapaGeneral" destination="xu4-ee-5ck" id="D9f-tI-AIt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hyx-P2-LUp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8206" y="-1489"/>
+            <point key="canvasLocation" x="10026.08695652174" y="-1489.2857142857142"/>
         </scene>
         <!--Itinerario View Controller-->
         <scene sceneID="SuO-1e-cEw">
@@ -4686,7 +4703,6 @@
                         <segue destination="Nuo-SU-JoI" kind="show" identifier="1" id="kKJ-b0-J9t"/>
                         <segue destination="2Wy-2K-WCT" kind="show" identifier="2" id="x2h-Zq-ojq"/>
                         <segue destination="Wma-uP-t8b" kind="show" identifier="3" id="7L1-D5-Xvh"/>
-                        <segue destination="lH6-ea-CZ6" kind="show" identifier="4" id="zMF-Dl-XRj"/>
                         <segue destination="P1e-bF-TmV" kind="show" identifier="5" id="DN4-v3-Rn6"/>
                         <segue destination="xaq-ol-Yzc" kind="show" identifier="6" id="S0E-J9-q2n"/>
                         <segue destination="kcV-9k-5c2" kind="show" identifier="7" id="IJT-04-aQ3"/>
@@ -4696,6 +4712,7 @@
                         <segue destination="LjQ-Ip-eQ2" kind="show" identifier="11" id="FSS-3p-Igs"/>
                         <segue destination="tug-R9-Bw2" kind="show" identifier="12" id="jfo-OC-N2Y"/>
                         <segue destination="b9o-1r-Hdi" kind="show" identifier="13" id="Vdw-Dx-Yl7"/>
+                        <segue destination="lH6-ea-CZ6" kind="show" identifier="4" id="iXn-n1-2xV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SKn-8H-s8r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -4810,7 +4827,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q5E-8e-GQr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-400" y="86"/>
+            <point key="canvasLocation" x="-545" y="82"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="AeG-F3-qF6">
