@@ -21,11 +21,26 @@ class franciaViewController: UIViewController, protocoloMenu {
     /*@IBOutlet weak var btnConferencias: UIButton!
     @IBOutlet weak var btnExpoEstatica: UIButton!
     @IBOutlet weak var btnChalets: UIButton!*/
-    @IBOutlet weak var btnPuestosTrabajo: UIButton!
-    @IBOutlet weak var btnLideresFrancia: UIButton!
-    @IBOutlet weak var btnID: UIButton!
-    @IBOutlet weak var btnExitoComercial: UIButton!
+    @IBOutlet weak var btnrelmf: UIButton!
+    @IBOutlet weak var btnianf: UIButton!
+    @IBOutlet weak var btniaef: UIButton!
+    @IBOutlet weak var btneaf: UIButton!
     
+    
+    @IBOutlet weak var lblfrancia: UILabel!
+    
+    @IBOutlet weak var imglink1: UIImageView!
+    @IBOutlet weak var imglink2: UIImageView!
+    @IBOutlet weak var imglink3: UIImageView!
+    @IBOutlet weak var imglink4: UIImageView!
+    @IBOutlet weak var imglink5: UIImageView!
+    
+    @IBOutlet weak var btnlink1: UIButton!
+    @IBOutlet weak var btnlink2: UIButton!
+    @IBOutlet weak var btnlink3: UIButton!
+    @IBOutlet weak var btnlink4: UIButton!
+    @IBOutlet weak var btnlink5: UIButton!
+
     
     var menu: Bool = false
     
@@ -37,7 +52,11 @@ class franciaViewController: UIViewController, protocoloMenu {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = #colorLiteral(red: 0.0307629546, green: 0.1608202691, blue: 0.325432595, alpha: 1)
+        
+        btnlink1.backgroundColor = .clear
+        btnlink2.backgroundColor = .clear
 
+        
         viewOptionSelect = viewFrancia.transform
         customViews()
         customNavigationBar()
@@ -65,6 +84,14 @@ class franciaViewController: UIViewController, protocoloMenu {
     
     func customViews() {
         
+        
+        lblfrancia.text = " F\n R\n A\n N\n C\n I\n A"
+        lblfrancia.numberOfLines = 0
+        lblfrancia.textAlignment = .center
+        lblfrancia.textColor = .white
+        lblfrancia.font = UIFont(name: "Arial", size: 40)
+        lblfrancia.adjustsFontSizeToFitWidth = true
+        lblfrancia.minimumScaleFactor = 0.5
         // Views
     //    viewMainButtons.backgroundColor = .clear
         
@@ -72,52 +99,35 @@ class franciaViewController: UIViewController, protocoloMenu {
 
         
             // Clouser para subrallar
-        let yourAttributes: [NSAttributedString.Key: Any] = [
-              .font: UIFont.systemFont(ofSize: 14),
-              .foregroundColor: UIColor.white,
-              .underlineStyle: NSUnderlineStyle.single.rawValue
-          ]
         
-        let attributeString1 = NSMutableAttributedString(
-                string: "Puestos de trabajo \nnumerosos y muy cualificados",
-                attributes: yourAttributes
-             )
         
-        let attributeString2 = NSMutableAttributedString(
-                string: "Muchos lideres \nmundiales en \nFrancia",
-                attributes: yourAttributes
-             )
+        btnrelmf.setTitle("Relacion \nMexico - Francia", for: .normal)
+        btnrelmf.titleLabel?.textAlignment = .center
+        btnrelmf.titleLabel?.numberOfLines = 0
+        btnrelmf.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        btnrelmf.titleLabel?.textColor = .white
         
-        let attributeString3 = NSMutableAttributedString(
-                string: "Una I+D fuerte e \ninternacionalizada",
-                attributes: yourAttributes
-             )
-
-        let attributeString4 = NSMutableAttributedString(
-                string: "Un éxito \ncomercial",
-                attributes: yourAttributes
-             )
+        
+        btnianf.setTitle("Industria \naeronauttica \nfrancesa", for: .normal)
+        btnianf.titleLabel?.textAlignment = .center
+        btnianf.titleLabel?.numberOfLines = 0
+        btnianf.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        btnrelmf.titleLabel?.textColor = .white
 
         
-        btnPuestosTrabajo.setAttributedTitle(attributeString1, for: .normal)
-        btnPuestosTrabajo.titleLabel?.textAlignment = .center
-        btnPuestosTrabajo.titleLabel?.numberOfLines = 0
-        btnPuestosTrabajo.titleLabel?.adjustsFontSizeToFitWidth = true
+        btniaef.setTitle("Industria \naeroespacial \nfrancesa", for: .normal)
+        btniaef.titleLabel?.textAlignment = .center
+        btniaef.titleLabel?.numberOfLines = 0
+        btniaef.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        btnrelmf.titleLabel?.textColor = .white
+
         
-        btnLideresFrancia.setAttributedTitle(attributeString2, for: .normal)
-        btnLideresFrancia.titleLabel?.textAlignment = .center
-        btnLideresFrancia.titleLabel?.numberOfLines = 0
-        btnLideresFrancia.titleLabel?.adjustsFontSizeToFitWidth = true
-        
-        btnID.setAttributedTitle(attributeString3, for: .normal)
-        btnID.titleLabel?.textAlignment = .center
-        btnID.titleLabel?.numberOfLines = 0
-        btnID.titleLabel?.adjustsFontSizeToFitWidth = true
-        
-        btnExitoComercial.setAttributedTitle(attributeString4, for: .normal)
-        btnExitoComercial.titleLabel?.textAlignment = .center
-        btnExitoComercial.titleLabel?.numberOfLines = 0
-        btnExitoComercial.titleLabel?.adjustsFontSizeToFitWidth = true
+        btneaf.setTitle("Excelencia \nAcademica \nfrancesa", for: .normal)
+        btneaf.titleLabel?.textAlignment = .center
+        btneaf.titleLabel?.numberOfLines = 0
+        btneaf.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        btnrelmf.titleLabel?.textColor = .white
+
     }
 
     func customNavigationBar() {
@@ -154,5 +164,86 @@ class franciaViewController: UIViewController, protocoloMenu {
     }
     
     
+    @IBAction func btnActionrelmf(_ sender: Any) {
+        performSegue(withIdentifier: "relmfSegue", sender: self)
+    }
+    
+    @IBAction func btnActionianf(_ sender: Any) {
+        performSegue(withIdentifier: "aeronSegue", sender: self)
+    }
+    
+    @IBAction func btnActioniaef(_ sender: Any) {
+        performSegue(withIdentifier: "aeroeSegue", sender: self)
+    }
+    
+    @IBAction func btnActioneaf(_ sender: Any) {
+        performSegue(withIdentifier: "acadeSegue", sender: self)
+    }
+    
+    @IBAction func goSiteLink1
+    (_ sender: Any){
+        if let url = URL(string:
+                            "https://mx.ambafrance.org"){
+            if #available(iOS 10, *){
+                UIApplication.shared.open(url)
+            }else{
+                UIApplication.shared.openURL(url)
+            }
+        }
+        
+    }
+    
 
+    @IBAction func goSiteLink2
+    (_ sender: Any){
+        if let url = URL(string:
+                            "https://www.franciamexico.com/es.html"){
+            if #available(iOS 10, *){
+                UIApplication.shared.open(url)
+            }else{
+                UIApplication.shared.openURL(url)
+            }
+        }
+        
+    }
+    
+    @IBAction func goSiteLink3
+    (_ sender: Any){
+        if let url = URL(string:
+                            "https://mx.ambafrance.org"){
+            if #available(iOS 10, *){
+                UIApplication.shared.open(url)
+            }else{
+                UIApplication.shared.openURL(url)
+            }
+        }
+        
+    }
+    
+    @IBAction func goSiteLink4
+    (_ sender: Any){
+        if let url = URL(string:
+                            "https://mx.ambafrance.org"){
+            if #available(iOS 10, *){
+                UIApplication.shared.open(url)
+            }else{
+                UIApplication.shared.openURL(url)
+            }
+        }
+        
+    }
+    
+    @IBAction func goSiteLink5
+    (_ sender: Any){
+        if let url = URL(string:
+                            "https://mx.ambafrance.org"){
+            if #available(iOS 10, *){
+                UIApplication.shared.open(url)
+            }else{
+                UIApplication.shared.openURL(url)
+            }
+        }
+        
+    }
+    
 }

@@ -27,9 +27,9 @@ class TerminosYCondicionesViewController: UIViewController {
         
         
         //--Nombre de la pesataña
-        lblTerminos.text =  "TERMINOS Y\nCONDICIONES"
+        lblTerminos.text =  "TERMINOS Y CONDICIONES"
         lblTerminos.numberOfLines = 2
-        lblTerminos.font = UIFont(name: "Plateia", size: 20)
+        lblTerminos.font = UIFont(name: "Plateia", size: 17)
         lblTerminos.textColor = .white
         
         //txtTerminos.text = "A"
