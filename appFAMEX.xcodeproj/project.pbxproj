@@ -194,6 +194,7 @@
 		BEB9882729A022A500BDCF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEC0F801299AD484002582D4 /* BienvenidaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BienvenidaViewController.swift; sourceTree = "<group>"; };
 		BEC1B3DF29C10F1C00AE86B0 /* PreguntasFrecuentesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreguntasFrecuentesViewController.swift; sourceTree = "<group>"; };
+		BEC9819229DCCF44006B90CE /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BED5325828F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCellRestaurantes.swift; sourceTree = "<group>"; };
 		BED5325928F0848F0061EE58 /* CustomCollectionViewCellRestaurantes.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCellRestaurantes.xib; sourceTree = "<group>"; };
 		BED5326328F47AA10061EE58 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -646,6 +647,7 @@
 			isa = PBXGroup;
 			children = (
 				BEC0F801299AD484002582D4 /* BienvenidaViewController.swift */,
+				BEC9819229DCCF44006B90CE /* Test.playground */,
 			);
 			path = Bienvenida;
 			sourceTree = "<group>";
