@@ -78,8 +78,8 @@ class firstDateViewController: UIViewController {
         super.viewDidLoad()
     
         
-        tableViewConferenciasFrancia.dataSource = self
-        tableViewConferenciasFrancia.delegate = self
+//        tableViewConferenciasFrancia.dataSource = self
+//        tableViewConferenciasFrancia.delegate = self
 
        
         customViews()
@@ -103,7 +103,7 @@ class firstDateViewController: UIViewController {
         
 
             // Table view
-        tableViewConferenciasFrancia.backgroundColor = .gray
+        tableViewConferenciasFrancia.backgroundColor = .clear
         
             // Stack view
         let stackView = UIStackView(arrangedSubviews: [paddedStackview, viewNamePabellon, tableViewConferenciasFrancia ])
@@ -217,6 +217,8 @@ extension firstDateViewController: UITableViewDelegate, UITableViewDataSource{
         switch segmentedControl.selectedSegmentIndex {
         case 0:
             cell?.textLabel?.text = pabellonA[indexPath.row]
+            cell?.backgroundColor = .clear
+
         case 1:
             cell?.textLabel?.text = pabellonB[indexPath.row]
         case 2:
