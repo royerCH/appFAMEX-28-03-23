@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VGA-tc-SxQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rfB-9n-cMC">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -4790,7 +4790,6 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ept-WF-mpj" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Tjn-xD-eiv">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -6194,7 +6193,7 @@ Lic. Ciencias de la informática / José Gabriel Peña Pérez</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="kKJ-b0-J9t"/>
+        <segue reference="Iek-BW-Bpn"/>
         <segue reference="wc9-aO-hcp"/>
     </inferredMetricsTieBreakers>
     <resources>

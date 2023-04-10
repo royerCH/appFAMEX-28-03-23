@@ -48,24 +48,11 @@ class firstDateViewController: UIViewController {
     }()
     
     
-    let pabellonA = ["a", "b", "c", "d", "e", " f"]
+    let pabellonA = ["13:00-14:00: Investigación en accidentes aéreos. Mtro. Ingeniero Aeronaútico Castillo ", "b", "c", "d", "e", " f"]
     let pabellonB = ["aa", "bb", "cc", "dd", "ee", "ff"]
     let pabellonC = ["aaa", "bbb", "ccc", "ddd", "eee", "fff"]
     
-//    struct dataOne {
-//        let title1: String
-//        let imgName: String
-//    }
-//
-//    let data: [dataOne] = [
-//
-//        dataOne.init(title1: "hola1", imgName: "imgIconAuditorio"),
-//        dataOne.init(tittkele1: "hola2", imgName: "imgIconAuditorio"),
-//        dataOne.init(title1: "hola3", imgName: "imgIconAuditorio"),
-//
-//
-//
-//    ]
+
     
     
  
@@ -77,9 +64,6 @@ class firstDateViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        
-//        tableViewConferenciasFrancia.dataSource = self
-//        tableViewConferenciasFrancia.delegate = self
 
        
         customViews()
@@ -104,6 +88,7 @@ class firstDateViewController: UIViewController {
 
             // Table view
         tableViewConferenciasFrancia.backgroundColor = .clear
+        
         
             // Stack view
         let stackView = UIStackView(arrangedSubviews: [paddedStackview, viewNamePabellon, tableViewConferenciasFrancia ])
@@ -218,6 +203,10 @@ extension firstDateViewController: UITableViewDelegate, UITableViewDataSource{
         case 0:
             cell?.textLabel?.text = pabellonA[indexPath.row]
             cell?.backgroundColor = .clear
+            cell?.textLabel?.textColor = .white
+            cell?.textLabel?.numberOfLines = 3
+            cell?.textLabel?.font = UIFont(name: "Arial", size: 14)
+            
 
         case 1:
             cell?.textLabel?.text = pabellonB[indexPath.row]
