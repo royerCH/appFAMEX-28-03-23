@@ -9,6 +9,22 @@ import UIKit
 import CoreData
 import Foundation
 
+class Section{//Se crea la estructura de datos
+    let title: String
+    let options: [String]
+    var isOpened: Bool = false
+    
+    init(title: String,
+         options: [String],
+         isOpened: Bool = false
+    
+    ) {
+        self.title = title
+        self.options = options
+        self.isOpened = isOpened
+    }
+}
+
 
 
 class firstDateViewController: UIViewController {
@@ -21,7 +37,7 @@ class firstDateViewController: UIViewController {
 
         // Table View
     
-    @IBOutlet weak var tableViewConferenciasFrancia: UITableView!
+    //@IBOutlet weak var tableViewConferenciasFrancia: UITableView!
     
         // Images
     @IBOutlet weak var imgBG: UIImageView!
@@ -31,60 +47,46 @@ class firstDateViewController: UIViewController {
     @IBOutlet weak var lblNameAuditorio: UILabel!
     @IBOutlet weak var lblNamePabellon: UILabel!
     
-    
-    
-    
         // Buttons
     @IBOutlet weak var btnRightPabellon: UIButton!
     @IBOutlet weak var btnLeftPabellon: UIButton!
     
         // Segmented Control
     let segmentedControl: UISegmentedControl = {                                        // Objeto Segmented Control
-        let sc = UISegmentedControl(items: ["26 de Abril \nMier", "27 de Abril \nJue", "28 de Abril \nVier"])              // Nombre de pabellones
+        let sc = UISegmentedControl(items: ["26 de Abril ", "27 de Abril ", "28 de Abril"])              // Nombre de pabellones
         sc.selectedSegmentIndex = 0     // Posicion a desplegar del segmented control
 
         sc.addTarget(self, action: #selector(handlesegmentChange), for: .valueChanged)  // Target (indicador) de la posicion del segmented control
         return sc
     }()
     
+    //Se declara la tabla
+    private let tableView: UITableView = {
+        let tableView = UITableView()
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        return tableView
+    }()
     
-    let pabellonA = ["a", "b", "c", "d", "e", " f"]
-    let pabellonB = ["aa", "bb", "cc", "dd", "ee", "ff"]
-    let pabellonC = ["aaa", "bbb", "ccc", "ddd", "eee", "fff"]
+    private var sections = [Section]()
     
-//    struct dataOne {
-//        let title1: String
-//        let imgName: String
-//    }
-//
-//    let data: [dataOne] = [
-//
-//        dataOne.init(title1: "hola1", imgName: "imgIconAuditorio"),
-//        dataOne.init(tittkele1: "hola2", imgName: "imgIconAuditorio"),
-//        dataOne.init(title1: "hola3", imgName: "imgIconAuditorio"),
-//
-//
-//
-//    ]
-    
-    
- 
-    
-    
-    
+
     // MARK: - View Life Cycle Method
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        view.addSubview(tableView)
+        tableView.delegate = self
+        tableView.dataSource = self
         
-        tableViewConferenciasFrancia.dataSource = self
-        tableViewConferenciasFrancia.delegate = self
-
-       
+        //Cargar a vista la estructura Sections
+        sections = [
+            Section(title: "Auditorio Alfa", options: [1, 2, 3].compactMap({return "Cell \($0)"})),
+            Section(title: "Auditorio Bravo", options: [1, 2, 3].compactMap({return "Cell \($0)"})),
+            Section(title: "Auditorio Delta", options: [1, 2, 3].compactMap({return "Cell \($0)"})),
+        ]
+        
         customViews()
-    
-  
+
     }
     
     // MARK: - Methods
@@ -103,10 +105,11 @@ class firstDateViewController: UIViewController {
         
 
             // Table view
-        tableViewConferenciasFrancia.backgroundColor = .gray
+        
+        
         
             // Stack view
-        let stackView = UIStackView(arrangedSubviews: [paddedStackview, viewNamePabellon, tableViewConferenciasFrancia ])
+        let stackView = UIStackView(arrangedSubviews: [paddedStackview, viewNamePabellon, tableView])
         stackView.axis = .vertical
             
             // Agregar el Stack view a la view viewFirstDateFrancia
@@ -163,7 +166,7 @@ class firstDateViewController: UIViewController {
             print("no Value")
         }
         
-        tableViewConferenciasFrancia.reloadData()
+       // tableViewConferenciasFrancia.reloadData()
         
     }
     
@@ -196,40 +199,96 @@ class firstDateViewController: UIViewController {
 }
 
 extension firstDateViewController: UITableViewDelegate, UITableViewDataSource{
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        switch segmentedControl.selectedSegmentIndex{
-        case 0:
-            return pabellonA.count
-        case 1:
-            return pabellonB.count
-        case 2:
-            return pabellonC.count
-        default:
-            print("none")
-            break
-        }
-        return 0
-    }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return sections.count
+    }
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { primera declaración de esta función
+//        return 10
+//    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {//así queda lo que era en línea 207
+           let section = sections[section]
+        if section.isOpened{
+            return section.options.count + 1
+        }else{
+            return 1
+        }
+       }
+    // esta función se declara así para pruebas
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+//        cell.textLabel?.text = "Hello"
+//        return cell
+//    }
+                //de esta manera queda
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            if indexPath.row == 0 {
+                let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+                cell.textLabel?.text = sections[indexPath.section].title
+                return cell
+            }
+            return UITableViewCell()
+        }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
         
-        switch segmentedControl.selectedSegmentIndex {
-        case 0:
-            cell?.textLabel?.text = pabellonA[indexPath.row]
-        case 1:
-            cell?.textLabel?.text = pabellonB[indexPath.row]
-        case 2:
-            cell?.textLabel?.text = pabellonC[indexPath.row]
-        default:
-            break
-        }
-        return cell!
+        sections[indexPath.section].isOpened = !sections[indexPath.section].isOpened
+        tableView.reloadSections([indexPath.section], with: .none)
     }
     
+    
+//        switch segmentedControl.selectedSegmentIndex{
+//        case 0:
+//        print("Hello1")
+//        //return pabellonA.count
+//            print("Hello2")
+//        case 1:
+//            //return pabellonB.count
+//            print("Hello3")
+//        case 2:
+//            //return pabellonC.count
+//            print("Hello4")
+//        default:
+//            print("none")
+//            break
+//        }
+//        return 0
+//    }
+//
+    
+    
+    
+    
+    
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+//
+//        switch segmentedControl.selectedSegmentIndex {
+//        case 0:
+////            cell?.textLabel?.text = pabellonA[indexPath.row]
+////            cell?.backgroundColor = .clear
+////            cell?.textLabel?.textColor = .white
+////            cell?.textLabel?.numberOfLines = 3
+////            cell?.textLabel?.font = UIFont(name: "Arial", size: 14)
+//
+//
+//        case 1:
+//           // cell?.textLabel?.text = pabellonB[indexPath.row]
+//        case 2:
+//            //cell?.textLabel?.text = pabellonC[indexPath.row]
+//        default:
+//            break
+//        }
+//        return cell
+//    }
+//
 
     
     
 }
+
 
     

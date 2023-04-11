@@ -1904,10 +1904,6 @@
                                             </tableViewCell>
                                         </prototypes>
                                         <sections/>
-                                        <connections>
-                                            <outlet property="dataSource" destination="VGA-tc-SxQ" id="wnH-ok-GYR"/>
-                                            <outlet property="delegate" destination="VGA-tc-SxQ" id="IMo-ew-VeC"/>
-                                        </connections>
                                     </tableView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ef-RF-Lch">
                                         <rect key="frame" x="0.0" y="88" width="414" height="50"/>
@@ -1940,6 +1936,9 @@
                                                 <state key="normal">
                                                     <imageReference key="image" image="arrowtriangle.right.fill" catalog="system" symbolScale="small"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnActionMoveSegmentedControl:" destination="VGA-tc-SxQ" eventType="touchUpInside" id="ddk-RV-rwK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8n5-P9-4dz">
                                                 <rect key="frame" x="229" y="10" width="30" height="30"/>
@@ -1950,6 +1949,9 @@
                                                 <state key="normal">
                                                     <imageReference key="image" image="arrowtriangle.left.fill" catalog="system" symbolScale="small"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="btnActionMoveSegmentedControl:" destination="VGA-tc-SxQ" eventType="touchUpInside" id="V1i-Qg-OuV"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9Y-Ci-UbB">
                                                 <rect key="frame" x="259" y="0.0" width="115" height="50"/>
@@ -2008,18 +2010,18 @@
                     <navigationItem key="navigationItem" id="nxn-QM-dG6"/>
                     <connections>
                         <outlet property="btnLeftPabellon" destination="8n5-P9-4dz" id="2ed-O5-My6"/>
+                        <outlet property="btnRightPabellon" destination="s7L-wg-Wa1" id="VuR-fe-4JQ"/>
                         <outlet property="imgBG" destination="XaK-s9-fXL" id="Aqi-nB-NcK"/>
                         <outlet property="imgIconPabellon" destination="oQF-Ul-bdA" id="VsF-Lu-ToM"/>
                         <outlet property="lblNameAuditorio" destination="7HM-jp-Uic" id="DfA-cg-fvZ"/>
                         <outlet property="lblNamePabellon" destination="l9Y-Ci-UbB" id="8QM-Ip-ENh"/>
-                        <outlet property="tableViewConferenciasFrancia" destination="Qgc-vg-SS3" id="6lA-MD-3Cr"/>
                         <outlet property="viewFirstDateFrancia" destination="mWa-0T-uTw" id="GdR-kR-GN4"/>
                         <outlet property="viewNamePabellon" destination="9ef-RF-Lch" id="OWR-ya-oEV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g5E-8c-Jgg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6327.5362318840589" y="-1775.2232142857142"/>
+            <point key="canvasLocation" x="6033" y="-1797"/>
         </scene>
         <!--Pop Up Add Mi Itinerario View Controller-->
         <scene sceneID="TjT-q3-Pt1">
@@ -6194,7 +6196,7 @@ Lic. Ciencias de la informática / José Gabriel Peña Pérez</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="kKJ-b0-J9t"/>
+        <segue reference="Iek-BW-Bpn"/>
         <segue reference="wc9-aO-hcp"/>
     </inferredMetricsTieBreakers>
     <resources>
