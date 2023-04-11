@@ -9,20 +9,10 @@ import UIKit
 import CoreData
 import Foundation
 
-class Section{//Se crea la estructura de datos
-    let title: String
-    let options: [String]
-    var isOpened: Bool = false
-    
-    init(title: String,
-         options: [String],
-         isOpened: Bool = false
-    
-    ) {
-        self.title = title
-        self.options = options
-        self.isOpened = isOpened
-    }
+struct cellDatas {
+    var opened = Bool()
+    var title = String()
+    var secctionData = [String]()
 }
 
 
@@ -54,7 +44,8 @@ class firstDateViewController: UIViewController {
         // Segmented Control
     let segmentedControl: UISegmentedControl = {                                        // Objeto Segmented Control
         let sc = UISegmentedControl(items: ["26 de Abril ", "27 de Abril ", "28 de Abril"])              // Nombre de pabellones
-        sc.selectedSegmentIndex = 0     // Posicion a desplegar del segmented control
+        sc.selectedSegmentIndex = 0
+        // Posicion a desplegar del segmented control
 
         sc.addTarget(self, action: #selector(handlesegmentChange), for: .valueChanged)  // Target (indicador) de la posicion del segmented control
         return sc
@@ -67,23 +58,56 @@ class firstDateViewController: UIViewController {
         return tableView
     }()
     
-    private var sections = [Section]()
+    private var sections = [cellDatas]()
+    private var sectionsA = [cellDatas]()
+    private var sectionsB = [cellDatas]()
     
 
     // MARK: - View Life Cycle Method
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.addSubview(tableView)
+        //view.addSubview(tableView)
+        
         tableView.delegate = self
         tableView.dataSource = self
         
-        //Cargar a vista la estructura Sections
+        
+        
         sections = [
-            Section(title: "Auditorio Alfa", options: [1, 2, 3].compactMap({return "Cell \($0)"})),
-            Section(title: "Auditorio Bravo", options: [1, 2, 3].compactMap({return "Cell \($0)"})),
-            Section(title: "Auditorio Delta", options: [1, 2, 3].compactMap({return "Cell \($0)"})),
+            cellDatas(opened: false, title: "Auditorio Alfa", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio Bravo", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio Coca", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio Delta", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio Eco", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio F", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio G", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio H", secctionData: ["cell1","cell2","cell3"]),
+                    ]
+        
+        sectionsA = [
+            cellDatas(opened: false, title: "Auditorio Alfa", secctionData: ["cell A","cell B","cell C"]),
+            cellDatas(opened: false, title: "Auditorio Bravo", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio Coca", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio Delta", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio Eco", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio F", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio G", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio H", secctionData: ["cell1","cell2","cell3"]),
         ]
+        
+        sectionsB = [
+            cellDatas(opened: false, title: "Auditorio Alfa", secctionData: ["cell a","cell b","cell c"]),
+            cellDatas(opened: false, title: "Auditorio Bravo", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio Coca", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio Delta", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio Eco", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio F", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio G", secctionData: ["cell1","cell2","cell3"]),
+            cellDatas(opened: false, title: "Auditorio H", secctionData: ["cell1","cell2","cell3"]),
+        ]
+        
+        
         
         customViews()
 
@@ -106,7 +130,7 @@ class firstDateViewController: UIViewController {
 
             // Table view
         
-        
+        tableView.backgroundColor = .clear
         
             // Stack view
         let stackView = UIStackView(arrangedSubviews: [paddedStackview, viewNamePabellon, tableView])
@@ -117,29 +141,27 @@ class firstDateViewController: UIViewController {
         
             // Margenes del Stack view
         stackView.anchor(top: view.safeAreaLayoutGuide.topAnchor, paddingTop: 12, bottom: view.bottomAnchor, paddingBottom: .zero, left: view.leftAnchor, paddingLeft: .zero, right: view.rightAnchor, paddingRight: .zero, width: 0, height: 0)
-        
-        
-        
-        
-        
+
         
             // Buttons
-//        btnRightPabellon.tag = 0        // Identificador o tag del boton Derecho
-//        btnRightPabellon.round()
-//        btnRightPabellon.backgroundColor = .white
-//
-//        btnLeftPabellon.tag = 1         // Identificador o tag del boton Izquierdo
-//        btnLeftPabellon.round()
-//        btnLeftPabellon.backgroundColor = .white
-//
-//            // Labels
-//        lblNameAuditorio.text = "Auditorio Alfa"
-//        lblNameAuditorio.textAlignment = .center
-//        lblNameAuditorio.textColor = .white
-//
-//        lblNamePabellon.text = "Pabellon A"
-//        lblNamePabellon.textAlignment = .center
-//        lblNamePabellon.textColor = .white
+        btnRightPabellon.tag = 0        // Identificador o tag del boton Derecho
+        btnRightPabellon.round()
+        btnRightPabellon.backgroundColor = .white
+
+        btnLeftPabellon.tag = 1         // Identificador o tag del boton Izquierdo
+        btnLeftPabellon.round()
+        btnLeftPabellon.backgroundColor = .white
+
+            // Labels
+        lblNameAuditorio.text = "Auditorio Alfa"
+        lblNameAuditorio.textAlignment = .center
+        lblNameAuditorio.textColor = .white
+
+        lblNamePabellon.text = "Pabellon A"
+        lblNamePabellon.textAlignment = .center
+        lblNamePabellon.textColor = .white
+    
+        _ = sections
     }
     
       
@@ -151,23 +173,17 @@ class firstDateViewController: UIViewController {
         
         switch segmentedControl.selectedSegmentIndex {
         case 0:
-            
-            print("case 0")
-            
+            _ = sections
         case 1:
-            print("A")
+            _ = sectionsA
         case 2:
-            print("B")
-        case 3:
-            print("C")
-        case 4:
-            print("D")
+            _ = sectionsB
         default:
-            print("no Value")
+            print("non Data")
         }
-        
-       // tableViewConferenciasFrancia.reloadData()
-        
+
+        tableView.reloadData()
+
     }
     
         // Funcion para cambiar entre pabellones con los botones
@@ -202,40 +218,44 @@ extension firstDateViewController: UITableViewDelegate, UITableViewDataSource{
     
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return sections.count
+        return sectionsA.count
     }
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { primera declaración de esta función
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int { primera declaración de esta función para realizar pruebas
 //        return 10
 //    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {//así queda lo que era en línea 207
-           let section = sections[section]
-        if section.isOpened{
-            return section.options.count + 1
+      if sections[section].opened == true {
+            return sections[section].secctionData.count + 1
         }else{
             return 1
         }
+        
        }
-    // esta función se declara así para pruebas
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-//        cell.textLabel?.text = "Hello"
-//        return cell
-//    }
-                //de esta manera queda
+    
+        
+        
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            
+            _ = indexPath.row - 1
             if indexPath.row == 0 {
-                let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell") else {return UITableViewCell()}
                 cell.textLabel?.text = sections[indexPath.section].title
+                cell.backgroundColor = .clear
+                cell.textLabel?.textColor = .white
+                return cell
+            }else{
+                guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell") else {return UITableViewCell()}
+                cell.textLabel?.text = sections[indexPath.section].secctionData[indexPath.row - 1]
                 return cell
             }
-            return UITableViewCell()
+            
         }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        sections[indexPath.section].isOpened = !sections[indexPath.section].isOpened
+        sections[indexPath.section].opened = !sections[indexPath.section].opened
         tableView.reloadSections([indexPath.section], with: .none)
     }
     
@@ -262,29 +282,7 @@ extension firstDateViewController: UITableViewDelegate, UITableViewDataSource{
     
     
     
-    
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
-//
-//        switch segmentedControl.selectedSegmentIndex {
-//        case 0:
-////            cell?.textLabel?.text = pabellonA[indexPath.row]
-////            cell?.backgroundColor = .clear
-////            cell?.textLabel?.textColor = .white
-////            cell?.textLabel?.numberOfLines = 3
-////            cell?.textLabel?.font = UIFont(name: "Arial", size: 14)
-//
-//
-//        case 1:
-//           // cell?.textLabel?.text = pabellonB[indexPath.row]
-//        case 2:
-//            //cell?.textLabel?.text = pabellonC[indexPath.row]
-//        default:
-//            break
-//        }
-//        return cell
-//    }
-//
+
 
     
     
