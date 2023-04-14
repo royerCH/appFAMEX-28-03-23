@@ -2648,7 +2648,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y6C-vZ-wIm">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kWo-gA-7K6">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fr_img_pop1" translatesAutoresizingMaskIntoConstraints="NO" id="kWo-gA-7K6">
                                                         <rect key="frame" x="62" y="53" width="290" height="197"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="290" id="KuX-kW-ZZi"/>
@@ -2678,9 +2678,9 @@
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dKb-Cc-gga">
                                                         <rect key="frame" x="30" y="30" width="354" height="260"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                        <mutableString key="text">México y Francia sostienen relaciones diplómaticas desde 1826 y, desde entonces, han generado vínculos en una relación económica y comercial estrecha, dinámica y complementaria. Francia es para México el cuarto socio comercial y sexta fuente de inversión entre los países que integran la Unión Europea. Es de destacar la relación económica comercial entre México y Francia, y en particular, el impacto de la inversión realizada por empresas francesas en México para el fortalecimiento de encadenamientos productivos entre nuestros países y de los proyectos de cooperación, responsabilidad social y sustentabilidad de éstas en nuestro país.</mutableString>
                                                         <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                 </subviews>
@@ -2752,7 +2752,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rWI-YM-TpY">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hc4-n7-Ic9">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fr_img_pop2" translatesAutoresizingMaskIntoConstraints="NO" id="Hc4-n7-Ic9">
                                                         <rect key="frame" x="62" y="53" width="290" height="197"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="290" id="Np1-HP-j30"/>
@@ -2782,9 +2782,9 @@
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="asN-bV-t5h">
                                                         <rect key="frame" x="30" y="30" width="354" height="260"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                        <mutableString key="text">Francia cuenta con un ecosistema rico para el sector aeronáutico y espacial, un gran número de líderes mundiales del sector aeronáutico y espacial tienen presencia en Francia, ¡Y varios de ellos son franceses! Airbus Group (ex EADS), Dassault Aviation, Thales, Snecma (Safran), entre otros. Por tal motivo, este sector estructurador de la economía francesa, suma 73,000 millones de euros en encargos. Asimismo, este sector es un gran generador de puestos de trabajo muy cualificados: el 26% de los contratos son para técnicos superiores y el 43% para ingenieros y directivos.</mutableString>
                                                         <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                 </subviews>
@@ -2856,7 +2856,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7br-yb-SdK">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZRO-vQ-4aM">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fr_img_pop3" translatesAutoresizingMaskIntoConstraints="NO" id="ZRO-vQ-4aM">
                                                         <rect key="frame" x="62" y="53" width="290" height="197"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="197" id="EWZ-7s-hJW"/>
@@ -2886,9 +2886,9 @@
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="n9I-Mk-0Jq">
                                                         <rect key="frame" x="30" y="30" width="354" height="260"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                        <string key="text">En el caso de Francia, los esfuerzos de investigación en la industria aeroespacial representan alrededor del 11% del gasto interno de investigación y desarrollo empresarial nacional, siendo el segundo sector más contribuyente.</string>
                                                         <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                 </subviews>
@@ -2960,7 +2960,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mz6-c2-eis">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M9b-cc-dsn">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fr_img_pop4" translatesAutoresizingMaskIntoConstraints="NO" id="M9b-cc-dsn">
                                                         <rect key="frame" x="62" y="53" width="290" height="197"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="290" id="Xxz-9W-WVI"/>
@@ -2990,9 +2990,9 @@
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZuK-2T-41d">
                                                         <rect key="frame" x="30" y="30" width="354" height="260"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                        <mutableString key="text">La excelencia francesa de la educación superior francesa es ampliamente reconocida a través del mundo. Francia invierte masivamente cada año en la educación superior y la investigación; la educación ocupa el primer puesto de gastos en el presupuesto del estado, o sea más del 20%. Los éxitos industriales, tecnológicos y científicos franceses (espaciom, transporte, medicina, etc.), el número de premios Nobel o de medallas Field, demuestran que Francia es un polo de innovación y de investigación y de investigación entre los más dinámicos.</mutableString>
                                                         <color key="textColor" systemColor="labelColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                 </subviews>
@@ -6317,6 +6317,10 @@
         <image name="fr_img_link3" width="251" height="251"/>
         <image name="fr_img_link4" width="251" height="251"/>
         <image name="fr_img_link5" width="251" height="251"/>
+        <image name="fr_img_pop1" width="770" height="420"/>
+        <image name="fr_img_pop2" width="770" height="420"/>
+        <image name="fr_img_pop3" width="770" height="558"/>
+        <image name="fr_img_pop4" width="770" height="420"/>
         <image name="imgBG1" width="1080" height="2150"/>
         <image name="imgBG2" width="811" height="1780"/>
         <image name="imgBG3" width="813" height="1780"/>
