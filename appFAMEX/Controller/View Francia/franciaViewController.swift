@@ -21,11 +21,18 @@ class franciaViewController: UIViewController, protocoloMenu {
     /*@IBOutlet weak var btnConferencias: UIButton!
     @IBOutlet weak var btnExpoEstatica: UIButton!
     @IBOutlet weak var btnChalets: UIButton!*/
-    @IBOutlet weak var btnPuestosTrabajo: UIButton!
-    @IBOutlet weak var btnLideresFrancia: UIButton!
-    @IBOutlet weak var btnID: UIButton!
-    @IBOutlet weak var btnExitoComercial: UIButton!
+    @IBOutlet weak var btnRelmf: UIButton!
+    @IBOutlet weak var btnIndaernf: UIButton!
+    @IBOutlet weak var btnIndaeref: UIButton!
+    @IBOutlet weak var btnExacadf: UIButton!
     
+    @IBOutlet weak var lblfrancia: UILabel!
+    
+    @IBOutlet weak var btnlink1: UIButton!
+    @IBOutlet weak var btnlink2: UIButton!
+    @IBOutlet weak var btnlink3: UIButton!
+    @IBOutlet weak var btnlink4: UIButton!
+    @IBOutlet weak var btnlink5: UIButton!
     
     var menu: Bool = false
     
@@ -63,6 +70,57 @@ class franciaViewController: UIViewController, protocoloMenu {
         
     }
     
+    @IBAction func goSiteLink1(_sender: Any){
+        if let url = URL(string: "https://mx.ambafrance.org/"){
+            if #available(iOS 10, *){
+                UIApplication.shared.open(url)
+            }else{
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
+    
+    @IBAction func goSiteLink2(_sender: Any){
+        if let url = URL(string: "https://www.franciamexico.com/es.html"){
+            if #available(iOS 10, *){
+                UIApplication.shared.open(url)
+            }else{
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
+    
+    @IBAction func goSiteLink3(_sender: Any){
+        if let url = URL(string: "https://www.safran-group.com/es"){
+            if #available(iOS 10, *){
+                UIApplication.shared.open(url)
+            }else{
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
+    
+    @IBAction func goSiteLink4(_sender: Any){
+        if let url = URL(string: "https://www.airbus.com/en"){
+            if #available(iOS 10, *){
+                UIApplication.shared.open(url)
+            }else{
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
+    
+    @IBAction func goSiteLink5(_sender: Any){
+        if let url = URL(string: "https://www.thalesgroup.com/es/americas/thales-mexico"){
+            if #available(iOS 10, *){
+                UIApplication.shared.open(url)
+            }else{
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
+
+    
     func customViews() {
         
         // Views
@@ -79,45 +137,50 @@ class franciaViewController: UIViewController, protocoloMenu {
           ]
         
         let attributeString1 = NSMutableAttributedString(
-                string: "Puestos de trabajo \nnumerosos y muy cualificados",
+                string: "Relación\nMéxico-Francia",
                 attributes: yourAttributes
              )
         
         let attributeString2 = NSMutableAttributedString(
-                string: "Muchos lideres \nmundiales en \nFrancia",
+                string: "Industria\naeronáutica\nfrancesa",
                 attributes: yourAttributes
              )
         
         let attributeString3 = NSMutableAttributedString(
-                string: "Una I+D fuerte e \ninternacionalizada",
+                string: "Industria\naeroespacial\nfrancesa",
                 attributes: yourAttributes
              )
 
         let attributeString4 = NSMutableAttributedString(
-                string: "Un éxito \ncomercial",
+                string: "Excelencia\nAcadémica\nfrancesa",
                 attributes: yourAttributes
              )
 
         
-        btnPuestosTrabajo.setAttributedTitle(attributeString1, for: .normal)
-        btnPuestosTrabajo.titleLabel?.textAlignment = .center
-        btnPuestosTrabajo.titleLabel?.numberOfLines = 0
-        btnPuestosTrabajo.titleLabel?.adjustsFontSizeToFitWidth = true
+        btnRelmf.setAttributedTitle(attributeString1, for: .normal)
+        btnRelmf.titleLabel?.textAlignment = .center
+        btnRelmf.titleLabel?.numberOfLines = 0
+        btnRelmf.titleLabel?.adjustsFontSizeToFitWidth = true
         
-        btnLideresFrancia.setAttributedTitle(attributeString2, for: .normal)
-        btnLideresFrancia.titleLabel?.textAlignment = .center
-        btnLideresFrancia.titleLabel?.numberOfLines = 0
-        btnLideresFrancia.titleLabel?.adjustsFontSizeToFitWidth = true
+        btnIndaernf.setAttributedTitle(attributeString2, for: .normal)
+        btnIndaernf.titleLabel?.textAlignment = .center
+        btnIndaernf.titleLabel?.numberOfLines = 0
+        btnIndaernf.titleLabel?.adjustsFontSizeToFitWidth = true
         
-        btnID.setAttributedTitle(attributeString3, for: .normal)
-        btnID.titleLabel?.textAlignment = .center
-        btnID.titleLabel?.numberOfLines = 0
-        btnID.titleLabel?.adjustsFontSizeToFitWidth = true
+        btnIndaeref.setAttributedTitle(attributeString3, for: .normal)
+        btnIndaeref.titleLabel?.textAlignment = .center
+        btnIndaeref.titleLabel?.numberOfLines = 0
+        btnIndaeref.titleLabel?.adjustsFontSizeToFitWidth = true
         
-        btnExitoComercial.setAttributedTitle(attributeString4, for: .normal)
-        btnExitoComercial.titleLabel?.textAlignment = .center
-        btnExitoComercial.titleLabel?.numberOfLines = 0
-        btnExitoComercial.titleLabel?.adjustsFontSizeToFitWidth = true
+        btnExacadf.setAttributedTitle(attributeString4, for: .normal)
+        btnExacadf.titleLabel?.textAlignment = .center
+        btnExacadf.titleLabel?.numberOfLines = 0
+        btnExacadf.titleLabel?.adjustsFontSizeToFitWidth = true
+        
+        lblfrancia.text = "F \nR \nA \nN \nC \nI \nA"
+        lblfrancia.textAlignment = .center
+        lblfrancia.numberOfLines = 0
+        lblfrancia.adjustsFontSizeToFitWidth = true
     }
 
     func customNavigationBar() {
@@ -152,6 +215,7 @@ class franciaViewController: UIViewController, protocoloMenu {
             menu = false
         }
     }
+    
     
     
 

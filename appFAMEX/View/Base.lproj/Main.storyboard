@@ -1431,7 +1431,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="350"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hb8-kq-1ca">
-                                                                <rect key="frame" x="0.0" y="30" width="305" height="30"/>
+                                                                <rect key="frame" x="0.0" y="120" width="305" height="30"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="30" id="WjE-GP-8bm"/>
                                                                 </constraints>
@@ -1443,7 +1443,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFZ-1c-DQH">
-                                                                <rect key="frame" x="0.0" y="120" width="224" height="30"/>
+                                                                <rect key="frame" x="0.0" y="210" width="224" height="30"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Del-fD-SF3"/>
                                                                     <constraint firstAttribute="height" constant="30" id="FSk-Pg-XiU"/>
@@ -1456,7 +1456,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PxP-xB-rEf">
-                                                                <rect key="frame" x="0.0" y="210" width="159" height="30"/>
+                                                                <rect key="frame" x="0.0" y="300" width="159" height="30"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="sJF-iN-YDm"/>
                                                                     <constraint firstAttribute="height" constant="30" id="tio-8v-veA"/>
@@ -1470,7 +1470,7 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dds-jY-aCK">
-                                                                <rect key="frame" x="0.0" y="300" width="314" height="30"/>
+                                                                <rect key="frame" x="0.0" y="390" width="314" height="30"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="30" id="ACM-Lr-Th8"/>
                                                                     <constraint firstAttribute="height" constant="30" id="ERl-Jk-cw3"/>
@@ -1492,7 +1492,7 @@
                                                             <constraint firstAttribute="trailing" secondItem="hb8-kq-1ca" secondAttribute="trailing" constant="109" id="5ui-uF-oxY"/>
                                                             <constraint firstItem="Dds-jY-aCK" firstAttribute="leading" secondItem="Ttf-P1-gf6" secondAttribute="leading" id="8TC-15-nID"/>
                                                             <constraint firstItem="PxP-xB-rEf" firstAttribute="top" secondItem="XFZ-1c-DQH" secondAttribute="bottom" constant="60" id="Qud-qD-u84"/>
-                                                            <constraint firstItem="hb8-kq-1ca" firstAttribute="top" secondItem="Ttf-P1-gf6" secondAttribute="top" constant="30" id="R00-7F-9lf"/>
+                                                            <constraint firstItem="hb8-kq-1ca" firstAttribute="top" secondItem="Ttf-P1-gf6" secondAttribute="top" constant="120" id="R00-7F-9lf"/>
                                                             <constraint firstItem="PxP-xB-rEf" firstAttribute="leading" secondItem="Ttf-P1-gf6" secondAttribute="leading" id="TH5-mH-Ut3"/>
                                                             <constraint firstItem="XFZ-1c-DQH" firstAttribute="top" secondItem="hb8-kq-1ca" secondAttribute="bottom" constant="60" id="c5e-lO-sTn"/>
                                                             <constraint firstAttribute="trailing" secondItem="PxP-xB-rEf" secondAttribute="trailing" constant="255" id="f63-r8-V41"/>
@@ -1504,26 +1504,119 @@
                                                     </view>
                                                 </subviews>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yly-fU-Rcx">
-                                                <rect key="frame" x="0.0" y="826" width="70" height="70"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="70" id="Se4-qy-Fre"/>
-                                                    <constraint firstAttribute="height" constant="70" id="vcb-L6-2PP"/>
-                                                </constraints>
-                                                <state key="normal" title="Button">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GkF-Mf-TeE">
+                                                <rect key="frame" x="358.5" y="300" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7s-Pz-YKz">
+                                                <rect key="frame" x="15" y="815.5" width="74.5" height="54.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <action selector="goSiteLink1With_sender:" destination="Wma-uP-t8b" eventType="touchUpInside" id="9rS-NV-bKp"/>
+                                                </connections>
                                             </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="fr_img_link1" translatesAutoresizingMaskIntoConstraints="NO" id="rlS-fn-yla">
+                                                <rect key="frame" x="15" y="800" width="65" height="65"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEp-hn-V8C" userLabel="Btnlink5">
+                                                <rect key="frame" x="324" y="800" width="65" height="65"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <action selector="goSiteLink5With_sender:" destination="Wma-uP-t8b" eventType="touchUpInside" id="nmh-yp-wnl"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="fr_img_link5" translatesAutoresizingMaskIntoConstraints="NO" id="uOp-4c-8dA">
+                                                <rect key="frame" x="328" y="800" width="65" height="65"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2W-Jd-RpC" userLabel="Btnlink3">
+                                                <rect key="frame" x="169.5" y="800" width="65" height="65"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <action selector="goSiteLink3With_sender:" destination="Wma-uP-t8b" eventType="touchUpInside" id="bbF-9S-8Pw"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="fr_img_link3" translatesAutoresizingMaskIntoConstraints="NO" id="dZF-1L-sMW">
+                                                <rect key="frame" x="175" y="800" width="65" height="65"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzY-Ue-0gj" userLabel="Btnlink2">
+                                                <rect key="frame" x="82.5" y="800" width="65" height="65"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <action selector="goSiteLink2With_sender:" destination="Wma-uP-t8b" eventType="touchUpInside" id="HDW-TW-Cuy"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3E-q5-J5F" userLabel="Btnlink4">
+                                                <rect key="frame" x="257" y="800" width="75" height="76"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <action selector="goSiteLink4With_sender:" destination="Wma-uP-t8b" eventType="touchUpInside" id="mv9-x5-FP3"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fr_img_link4" translatesAutoresizingMaskIntoConstraints="NO" id="dMT-sV-mUM">
+                                                <rect key="frame" x="257.5" y="800" width="65" height="65"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="65" id="Y8b-dY-8Dq"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" image="fr_img_link2" translatesAutoresizingMaskIntoConstraints="NO" id="L2Y-EO-Wvq">
+                                                <rect key="frame" x="96" y="800" width="65" height="65"/>
+                                            </imageView>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstItem="x7s-Pz-YKz" firstAttribute="leading" secondItem="n8I-ak-wub" secondAttribute="leading" constant="15" id="04J-NH-2u2"/>
+                                            <constraint firstItem="u2W-Jd-RpC" firstAttribute="centerX" secondItem="uXr-pg-4Cr" secondAttribute="centerX" id="1e0-2N-xCj"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="trailing" secondItem="eEp-hn-V8C" secondAttribute="trailing" constant="15" id="4qs-hx-FDQ"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="bottom" secondItem="dZF-1L-sMW" secondAttribute="bottom" constant="31" id="8Kt-Dz-FFr"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="bottom" secondItem="dMT-sV-mUM" secondAttribute="bottom" constant="31" id="9tw-8r-ZQt"/>
                                             <constraint firstItem="uXr-pg-4Cr" firstAttribute="top" secondItem="29e-nb-bfl" secondAttribute="top" id="BCi-B8-GSb"/>
+                                            <constraint firstItem="L2Y-EO-Wvq" firstAttribute="leading" secondItem="x7s-Pz-YKz" secondAttribute="trailing" constant="6.5" id="CL3-vI-RT6"/>
+                                            <constraint firstItem="rlS-fn-yla" firstAttribute="leading" secondItem="n8I-ak-wub" secondAttribute="leading" constant="15" id="CU9-th-d0i"/>
+                                            <constraint firstItem="eEp-hn-V8C" firstAttribute="top" secondItem="uXr-pg-4Cr" secondAttribute="bottom" constant="450" id="EYg-nE-QeF"/>
+                                            <constraint firstItem="u2W-Jd-RpC" firstAttribute="leading" secondItem="L2Y-EO-Wvq" secondAttribute="trailing" constant="8.5" id="Eof-CC-W5D"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="bottom" secondItem="eEp-hn-V8C" secondAttribute="bottom" constant="20" id="G1Y-qm-xjY"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="trailing" secondItem="uOp-4c-8dA" secondAttribute="trailing" constant="15" id="GRN-4y-FCs"/>
+                                            <constraint firstItem="nzY-Ue-0gj" firstAttribute="top" secondItem="uXr-pg-4Cr" secondAttribute="bottom" constant="450" id="Hfc-sh-Og1"/>
+                                            <constraint firstItem="u2W-Jd-RpC" firstAttribute="leading" secondItem="x7s-Pz-YKz" secondAttribute="trailing" constant="80" id="Hye-NW-JGT"/>
+                                            <constraint firstItem="L2Y-EO-Wvq" firstAttribute="top" secondItem="nzY-Ue-0gj" secondAttribute="top" id="Kxp-fl-ygp"/>
+                                            <constraint firstItem="L2Y-EO-Wvq" firstAttribute="top" secondItem="dMT-sV-mUM" secondAttribute="top" id="OWV-CB-J4i"/>
+                                            <constraint firstItem="L2Y-EO-Wvq" firstAttribute="top" secondItem="dZF-1L-sMW" secondAttribute="top" id="Obs-SE-tt5"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="bottom" secondItem="N3E-q5-J5F" secondAttribute="bottom" constant="20" id="P0G-Ge-XY8"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="bottom" secondItem="dZF-1L-sMW" secondAttribute="bottom" constant="31" id="PMj-y8-Beb"/>
+                                            <constraint firstItem="N3E-q5-J5F" firstAttribute="top" secondItem="uXr-pg-4Cr" secondAttribute="bottom" constant="450" id="QEf-bp-gOQ"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="bottom" secondItem="uOp-4c-8dA" secondAttribute="bottom" constant="31" id="QRr-CL-IhU"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="bottom" secondItem="L2Y-EO-Wvq" secondAttribute="bottom" constant="31" id="QbK-aw-Sji"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="bottom" secondItem="u2W-Jd-RpC" secondAttribute="bottom" constant="20" id="U8m-vD-hu0"/>
+                                            <constraint firstItem="u2W-Jd-RpC" firstAttribute="top" secondItem="uXr-pg-4Cr" secondAttribute="bottom" constant="450" id="Z5M-ir-68E"/>
+                                            <constraint firstItem="rlS-fn-yla" firstAttribute="top" secondItem="uXr-pg-4Cr" secondAttribute="bottom" constant="450" id="ZQh-Mv-0bW"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="bottom" secondItem="nzY-Ue-0gj" secondAttribute="bottom" constant="20" id="Zhp-pM-G9x"/>
                                             <constraint firstItem="uXr-pg-4Cr" firstAttribute="width" secondItem="n8I-ak-wub" secondAttribute="width" id="a2D-l1-HgB"/>
-                                            <constraint firstItem="Yly-fU-Rcx" firstAttribute="leading" secondItem="n8I-ak-wub" secondAttribute="leading" id="col-nE-s59"/>
+                                            <constraint firstItem="GkF-Mf-TeE" firstAttribute="top" secondItem="n8I-ak-wub" secondAttribute="top" constant="300" id="a9k-Lx-8Rr"/>
+                                            <constraint firstItem="x7s-Pz-YKz" firstAttribute="leading" secondItem="n8I-ak-wub" secondAttribute="leading" constant="15" id="aFd-Kq-kv7"/>
+                                            <constraint firstItem="u2W-Jd-RpC" firstAttribute="leading" secondItem="nzY-Ue-0gj" secondAttribute="trailing" constant="12.25" id="c93-IY-rcO"/>
+                                            <constraint firstItem="L2Y-EO-Wvq" firstAttribute="leading" secondItem="nUf-QZ-Bkl" secondAttribute="leading" constant="96" id="cmA-cY-tTg"/>
+                                            <constraint firstItem="eEp-hn-V8C" firstAttribute="leading" secondItem="dMT-sV-mUM" secondAttribute="trailing" constant="6" id="ddP-AC-sR7"/>
                                             <constraint firstItem="uXr-pg-4Cr" firstAttribute="trailing" secondItem="29e-nb-bfl" secondAttribute="trailing" id="eMt-it-Wm5"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="bottom" secondItem="uOp-4c-8dA" secondAttribute="bottom" constant="31" id="eWZ-pG-6nD"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="trailing" secondItem="GkF-Mf-TeE" secondAttribute="trailing" constant="14" id="eyZ-G0-OrA"/>
                                             <constraint firstItem="uXr-pg-4Cr" firstAttribute="leading" secondItem="29e-nb-bfl" secondAttribute="leading" id="jgy-PQ-th4"/>
+                                            <constraint firstItem="N3E-q5-J5F" firstAttribute="leading" secondItem="dZF-1L-sMW" secondAttribute="trailing" constant="12.25" id="joa-r9-NTC"/>
+                                            <constraint firstItem="L2Y-EO-Wvq" firstAttribute="top" secondItem="uOp-4c-8dA" secondAttribute="top" id="jy0-Wc-RXm"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="bottom" secondItem="x7s-Pz-YKz" secondAttribute="bottom" constant="26" id="mAq-ww-4Pn"/>
+                                            <constraint firstItem="rlS-fn-yla" firstAttribute="top" secondItem="uXr-pg-4Cr" secondAttribute="bottom" constant="450" id="pG8-uo-Aw3"/>
+                                            <constraint firstItem="dMT-sV-mUM" firstAttribute="leading" secondItem="dZF-1L-sMW" secondAttribute="trailing" constant="13" id="pTM-FO-Os2"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="bottom" secondItem="x7s-Pz-YKz" secondAttribute="bottom" constant="26" id="qmA-PS-0dc"/>
+                                            <constraint firstItem="N3E-q5-J5F" firstAttribute="leading" secondItem="u2W-Jd-RpC" secondAttribute="trailing" constant="12.25" id="r5G-ok-uek"/>
+                                            <constraint firstItem="rlS-fn-yla" firstAttribute="leading" secondItem="n8I-ak-wub" secondAttribute="leading" constant="15" id="sfL-wv-Nbg"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="trailing" secondItem="uOp-4c-8dA" secondAttribute="trailing" constant="15" id="t6g-0z-ukj"/>
                                             <constraint firstItem="uXr-pg-4Cr" firstAttribute="bottom" secondItem="29e-nb-bfl" secondAttribute="bottom" id="x04-2c-jDu"/>
-                                            <constraint firstItem="Yly-fU-Rcx" firstAttribute="bottom" secondItem="n8I-ak-wub" secondAttribute="bottom" id="yRQ-zG-87D"/>
+                                            <constraint firstItem="n8I-ak-wub" firstAttribute="bottom" secondItem="rlS-fn-yla" secondAttribute="bottom" constant="31" id="xnU-Xd-hve"/>
                                         </constraints>
                                         <viewLayoutGuide key="contentLayoutGuide" id="29e-nb-bfl"/>
                                         <viewLayoutGuide key="frameLayoutGuide" id="n8I-ak-wub"/>
@@ -1553,10 +1646,16 @@
                     </view>
                     <navigationItem key="navigationItem" id="vfx-Yl-yT8"/>
                     <connections>
-                        <outlet property="btnExitoComercial" destination="Dds-jY-aCK" id="4La-md-3py"/>
+                        <outlet property="btnExitoComercial" destination="Dds-jY-aCK" id="DaU-vD-9Eh"/>
                         <outlet property="btnID" destination="PxP-xB-rEf" id="m6H-vg-MaZ"/>
                         <outlet property="btnLideresFrancia" destination="XFZ-1c-DQH" id="i5s-Xs-aKA"/>
                         <outlet property="btnPuestosTrabajo" destination="hb8-kq-1ca" id="GoK-wz-PHV"/>
+                        <outlet property="btnlink1" destination="x7s-Pz-YKz" id="pcx-TF-BlI"/>
+                        <outlet property="btnlink2" destination="nzY-Ue-0gj" id="Hu6-Ex-spc"/>
+                        <outlet property="btnlink3" destination="u2W-Jd-RpC" id="Kwx-gw-3E0"/>
+                        <outlet property="btnlink4" destination="N3E-q5-J5F" id="zGZ-dt-1nq"/>
+                        <outlet property="btnlink5" destination="eEp-hn-V8C" id="ktV-xW-DVH"/>
+                        <outlet property="lblfrancia" destination="GkF-Mf-TeE" id="kk4-DO-uDu"/>
                         <outlet property="viewFrancia" destination="0i4-YS-mMo" id="O21-oU-fuO"/>
                         <outlet property="viewSubButtons" destination="Ttf-P1-gf6" id="9yN-7E-JYn"/>
                         <segue destination="JqM-iy-6Rk" kind="show" identifier="conferenciasFranciaSegue" id="7xa-P3-dPv"/>
@@ -1564,7 +1663,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JHW-24-G7q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4751" y="-3060"/>
+            <point key="canvasLocation" x="4750.7246376811599" y="-3060.2678571428569"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="96Z-ui-Kn4">
@@ -5940,7 +6039,7 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LbN-2e-O62">
                                         <rect key="frame" x="8" y="8" width="382" height="755"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <color key="textColor" name="AccentColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -6145,7 +6244,7 @@
                                         <rect key="frame" x="8" y="-8" width="358" height="749"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -6213,6 +6312,11 @@
         <image name="btnMiItinerario" width="509" height="284"/>
         <image name="calendar" catalog="system" width="128" height="107"/>
         <image name="clock.fill" catalog="system" width="128" height="123"/>
+        <image name="fr_img_link1" width="251" height="251"/>
+        <image name="fr_img_link2" width="120" height="125"/>
+        <image name="fr_img_link3" width="251" height="251"/>
+        <image name="fr_img_link4" width="251" height="251"/>
+        <image name="fr_img_link5" width="251" height="251"/>
         <image name="imgBG1" width="1080" height="2150"/>
         <image name="imgBG2" width="811" height="1780"/>
         <image name="imgBG3" width="813" height="1780"/>
