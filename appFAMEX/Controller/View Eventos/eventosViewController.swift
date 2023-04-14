@@ -106,7 +106,7 @@ class eventosViewController: UIViewController, protocoloMenu {
     }
     
     @IBAction func btnActionMapGeneral(_ sender: Any) {
-        pdf()
+       // pdf()
        
         performSegue(withIdentifier: "mapaGeneralSegue", sender: self)
       
