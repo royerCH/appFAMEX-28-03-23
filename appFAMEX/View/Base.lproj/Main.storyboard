@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VGA-tc-SxQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rfB-9n-cMC">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -517,7 +516,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="muestra idioma " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhR-uo-aMZ">
-                                <rect key="frame" x="0.0" y="112" width="414" height="28"/>
+                                <rect key="frame" x="0.0" y="108" width="414" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="v4v-WU-Zw4"/>
                                 </constraints>
@@ -526,7 +525,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqC-PV-lbo">
-                                <rect key="frame" x="90" y="199" width="324" height="91"/>
+                                <rect key="frame" x="90" y="195" width="324" height="91"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="91" id="4kd-R2-3kG"/>
                                 </constraints>
@@ -535,7 +534,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LB4-ay-eJL">
-                                <rect key="frame" x="90" y="340" width="324" height="86"/>
+                                <rect key="frame" x="90" y="336" width="324" height="86"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="86" id="4r4-0u-TuZ"/>
                                 </constraints>
@@ -649,7 +648,7 @@
                                         </constraints>
                                     </view>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ZVJ-3I-vpg">
-                                        <rect key="frame" x="20" y="683" width="374" height="26"/>
+                                        <rect key="frame" x="20" y="681.5" width="374" height="27.5"/>
                                         <connections>
                                             <action selector="pageControlActionCarousel:" destination="Nuo-SU-JoI" eventType="valueChanged" id="VRF-27-mWC"/>
                                         </connections>
@@ -665,10 +664,10 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hvp-tZ-pZw">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="683"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="681.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gcO-vu-FVA">
-                                                <rect key="frame" x="62" y="213" width="290" height="450"/>
+                                                <rect key="frame" x="62" y="211.5" width="290" height="450"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="450" id="86i-7y-GAn"/>
@@ -1511,9 +1510,8 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7s-Pz-YKz">
-                                                <rect key="frame" x="15" y="815.5" width="74.5" height="54.5"/>
+                                                <rect key="frame" x="15" y="840" width="74.5" height="30"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                 <connections>
                                                     <action selector="goSiteLink1With_sender:" destination="Wma-uP-t8b" eventType="touchUpInside" id="9rS-NV-bKp"/>
                                                 </connections>
@@ -1524,7 +1522,6 @@
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEp-hn-V8C" userLabel="Btnlink5">
                                                 <rect key="frame" x="324" y="800" width="65" height="65"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                 <connections>
                                                     <action selector="goSiteLink5With_sender:" destination="Wma-uP-t8b" eventType="touchUpInside" id="nmh-yp-wnl"/>
                                                 </connections>
@@ -1535,7 +1532,6 @@
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2W-Jd-RpC" userLabel="Btnlink3">
                                                 <rect key="frame" x="169.5" y="800" width="65" height="65"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                 <connections>
                                                     <action selector="goSiteLink3With_sender:" destination="Wma-uP-t8b" eventType="touchUpInside" id="bbF-9S-8Pw"/>
                                                 </connections>
@@ -1546,15 +1542,13 @@
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzY-Ue-0gj" userLabel="Btnlink2">
                                                 <rect key="frame" x="82.5" y="800" width="65" height="65"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                 <connections>
                                                     <action selector="goSiteLink2With_sender:" destination="Wma-uP-t8b" eventType="touchUpInside" id="HDW-TW-Cuy"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3E-q5-J5F" userLabel="Btnlink4">
-                                                <rect key="frame" x="257" y="800" width="75" height="76"/>
+                                                <rect key="frame" x="257" y="800" width="46" height="76"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                                 <connections>
                                                     <action selector="goSiteLink4With_sender:" destination="Wma-uP-t8b" eventType="touchUpInside" id="mv9-x5-FP3"/>
                                                 </connections>
@@ -1795,7 +1789,7 @@
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Dcl-Q3-Wcx">
-                                                <rect key="frame" x="12" y="97" width="30" height="28.5"/>
+                                                <rect key="frame" x="12" y="97" width="30" height="29"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="H5z-HH-M1B"/>
                                                     <constraint firstAttribute="width" constant="30" id="tFf-ga-TMa"/>
@@ -2117,10 +2111,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wDw-Hh-9GG">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="66"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVs-b8-ACS">
-                                        <rect key="frame" x="45" y="8" width="300" height="50"/>
+                                        <rect key="frame" x="45" y="25" width="300" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="gPw-28-nOx"/>
                                             <constraint firstAttribute="width" constant="300" id="tSX-0i-I4a"/>
@@ -2633,14 +2627,14 @@
             <objects>
                 <viewController id="VQ3-Eo-hd3" customClass="PopUpPuestosViewController" customModule="appFAMEX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xzH-FX-cPZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImgBGPupUp" translatesAutoresizingMaskIntoConstraints="NO" id="M5J-78-aWy">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K0U-8v-lUG">
-                                <rect key="frame" x="0.0" y="56" width="414" height="830"/>
+                                <rect key="frame" x="0.0" y="56" width="414" height="786"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IuJ-NS-I0n">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="750"/>
@@ -2678,7 +2672,7 @@
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dKb-Cc-gga">
                                                         <rect key="frame" x="30" y="30" width="354" height="260"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <mutableString key="text">México y Francia sostienen relaciones diplómaticas desde 1826 y, desde entonces, han generado vínculos en una relación económica y comercial estrecha, dinámica y complementaria. Francia es para México el cuarto socio comercial y sexta fuente de inversión entre los países que integran la Unión Europea. Es de destacar la relación económica comercial entre México y Francia, y en particular, el impacto de la inversión realizada por empresas francesas en México para el fortalecimiento de encadenamientos productivos entre nuestros países y de los proyectos de cooperación, responsabilidad social y sustentabilidad de éstas en nuestro país.</mutableString>
+                                                        <string key="text">México y Francia sostienen relaciones diplómaticas desde 1826 y, desde entonces, han generado vínculos en una relación económica y comercial estrecha, dinámica y complementaria. Francia es para México el cuarto socio comercial y sexta fuente de inversión entre los países que integran la Unión Europea. Es de destacar la relación económica comercial entre México y Francia, y en particular, el impacto de la inversión realizada por empresas francesas en México para el fortalecimiento de encadenamientos productivos entre nuestros países y de los proyectos de cooperación, responsabilidad social y sustentabilidad de éstas en nuestro país.</string>
                                                         <color key="textColor" systemColor="labelColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2737,14 +2731,14 @@
             <objects>
                 <viewController id="b8W-xQ-Os2" customClass="PopUpLideresViewController" customModule="appFAMEX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VCi-xp-EGW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImgBGPupUp" translatesAutoresizingMaskIntoConstraints="NO" id="Qft-Bf-Gmm">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YKG-KO-GAs">
-                                <rect key="frame" x="0.0" y="56" width="414" height="830"/>
+                                <rect key="frame" x="0.0" y="56" width="414" height="786"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JLp-3T-JMR">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="750"/>
@@ -2782,7 +2776,7 @@
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="asN-bV-t5h">
                                                         <rect key="frame" x="30" y="30" width="354" height="260"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <mutableString key="text">Francia cuenta con un ecosistema rico para el sector aeronáutico y espacial, un gran número de líderes mundiales del sector aeronáutico y espacial tienen presencia en Francia, ¡Y varios de ellos son franceses! Airbus Group (ex EADS), Dassault Aviation, Thales, Snecma (Safran), entre otros. Por tal motivo, este sector estructurador de la economía francesa, suma 73,000 millones de euros en encargos. Asimismo, este sector es un gran generador de puestos de trabajo muy cualificados: el 26% de los contratos son para técnicos superiores y el 43% para ingenieros y directivos.</mutableString>
+                                                        <string key="text">Francia cuenta con un ecosistema rico para el sector aeronáutico y espacial, un gran número de líderes mundiales del sector aeronáutico y espacial tienen presencia en Francia, ¡Y varios de ellos son franceses! Airbus Group (ex EADS), Dassault Aviation, Thales, Snecma (Safran), entre otros. Por tal motivo, este sector estructurador de la economía francesa, suma 73,000 millones de euros en encargos. Asimismo, este sector es un gran generador de puestos de trabajo muy cualificados: el 26% de los contratos son para técnicos superiores y el 43% para ingenieros y directivos.</string>
                                                         <color key="textColor" systemColor="labelColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2841,14 +2835,14 @@
             <objects>
                 <viewController id="ezM-PD-Y3z" customClass="PopUpIDViewController" customModule="appFAMEX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HNA-Kc-bib">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImgBGPupUp" translatesAutoresizingMaskIntoConstraints="NO" id="GqU-Zy-mOi">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XDr-B2-ApJ">
-                                <rect key="frame" x="0.0" y="56" width="414" height="830"/>
+                                <rect key="frame" x="0.0" y="56" width="414" height="786"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="URO-Ts-VTU">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="750"/>
@@ -2945,14 +2939,14 @@
             <objects>
                 <viewController id="9sg-N1-NAW" customClass="PopUpExitoViewController" customModule="appFAMEX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YHv-hs-Hym">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImgBGPupUp" translatesAutoresizingMaskIntoConstraints="NO" id="CNz-uE-ptc">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cnp-NU-k2H">
-                                <rect key="frame" x="0.0" y="56" width="414" height="830"/>
+                                <rect key="frame" x="0.0" y="56" width="414" height="786"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kf7-N8-K7u">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="750"/>
@@ -2990,7 +2984,7 @@
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZuK-2T-41d">
                                                         <rect key="frame" x="30" y="30" width="354" height="260"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <mutableString key="text">La excelencia francesa de la educación superior francesa es ampliamente reconocida a través del mundo. Francia invierte masivamente cada año en la educación superior y la investigación; la educación ocupa el primer puesto de gastos en el presupuesto del estado, o sea más del 20%. Los éxitos industriales, tecnológicos y científicos franceses (espaciom, transporte, medicina, etc.), el número de premios Nobel o de medallas Field, demuestran que Francia es un polo de innovación y de investigación y de investigación entre los más dinámicos.</mutableString>
+                                                        <string key="text">La excelencia francesa de la educación superior francesa es ampliamente reconocida a través del mundo. Francia invierte masivamente cada año en la educación superior y la investigación; la educación ocupa el primer puesto de gastos en el presupuesto del estado, o sea más del 20%. Los éxitos industriales, tecnológicos y científicos franceses (espaciom, transporte, medicina, etc.), el número de premios Nobel o de medallas Field, demuestran que Francia es un polo de innovación y de investigación y de investigación entre los más dinámicos.</string>
                                                         <color key="textColor" systemColor="labelColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -4097,7 +4091,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="XoX-Sk-YcC" customClass="PreguntasTableViewCell" customModule="appFAMEX" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="50" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XoX-Sk-YcC" id="4KT-hJ-dc7">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -4120,18 +4114,18 @@
             <objects>
                 <viewController id="HYr-Yy-4I5" customClass="PreguntasFrecuentesViewController" customModule="appFAMEX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ljD-Vc-GIG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wLD-bS-skl">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="916"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="872"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yOz-un-Gq1">
                                         <rect key="frame" x="0.0" y="46" width="414" height="80"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fondo-5" translatesAutoresizingMaskIntoConstraints="NO" id="6kf-GI-q7n">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="946"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="902"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLf-tp-4lp">
@@ -4155,14 +4149,14 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fb3-XY-eCh">
-                                        <rect key="frame" x="-3" y="174" width="420" height="723"/>
+                                        <rect key="frame" x="-3" y="174" width="420" height="679"/>
                                         <subviews>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QGB-Zc-RjK">
-                                                <rect key="frame" x="0.0" y="0.0" width="420" height="756"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="420" height="712"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <prototypes>
                                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="rbQ-Jb-hcV">
-                                                        <rect key="frame" x="0.0" y="50" width="420" height="43.5"/>
+                                                        <rect key="frame" x="0.0" y="28" width="420" height="43.5"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rbQ-Jb-hcV" id="8Eo-60-t4k">
                                                             <rect key="frame" x="0.0" y="0.0" width="420" height="43.5"/>
@@ -4877,7 +4871,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ept-WF-mpj" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Tjn-xD-eiv">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -4896,7 +4890,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="lm2-qB-Fly"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8hy-1U-tI1">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -4915,7 +4909,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="mmc-Bb-9mN"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="PUg-TE-3N2">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -6009,7 +6003,7 @@
             <objects>
                 <viewController id="5rW-d7-luA" customClass="TerminosYCondicionesViewController" customModule="appFAMEX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PiM-Ot-eS2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fondo-3" translatesAutoresizingMaskIntoConstraints="NO" id="0CT-HN-t9c">
@@ -6068,7 +6062,7 @@
             <objects>
                 <viewController id="Q3s-wV-rtw" customClass="ContactoViewController" customModule="appFAMEX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vur-fu-632">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ImgConfiguracionFondo" translatesAutoresizingMaskIntoConstraints="NO" id="r9i-Bw-nbA">
@@ -6119,7 +6113,7 @@
             <objects>
                 <viewController id="7ja-PA-ie1" customClass="SobreLaAplicacionViewController" customModule="appFAMEX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WpI-gH-JIe">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ImgConfiguracionFondo" translatesAutoresizingMaskIntoConstraints="NO" id="17q-qb-W0X">
@@ -6213,11 +6207,11 @@
             <objects>
                 <viewController id="czH-bS-emT" customClass="DesarrolladoresViewController" customModule="appFAMEX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o6K-KP-8f8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgBG2" translatesAutoresizingMaskIntoConstraints="NO" id="WTG-9y-CWd">
-                                <rect key="frame" x="0.0" y="-30" width="414" height="902"/>
+                                <rect key="frame" x="0.0" y="-30" width="414" height="824"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o87-kG-YQw">
@@ -6310,8 +6304,8 @@
         <image name="arrowtriangle.right.fill" catalog="system" width="128" height="113"/>
         <image name="btnEventos" width="509" height="284"/>
         <image name="btnMiItinerario" width="509" height="284"/>
-        <image name="calendar" catalog="system" width="128" height="107"/>
-        <image name="clock.fill" catalog="system" width="128" height="123"/>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="clock.fill" catalog="system" width="128" height="121"/>
         <image name="fr_img_link1" width="251" height="251"/>
         <image name="fr_img_link2" width="120" height="125"/>
         <image name="fr_img_link3" width="251" height="251"/>
@@ -6362,13 +6356,13 @@
         <image name="imgTicket" width="848" height="342"/>
         <image name="imgTicket2" width="850" height="408"/>
         <image name="imgUsr" width="338" height="384"/>
-        <image name="location.fill" catalog="system" width="128" height="119"/>
+        <image name="location.fill" catalog="system" width="128" height="121"/>
         <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -6395,7 +6389,7 @@
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
